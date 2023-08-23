@@ -10,5 +10,57 @@
 \begin{document}
     \maketitle
 
-    \section*{title}
+    \section*{Intro}
+    
+    \begin{itemize}
+        \item Software (typically from a high level programming langauge), abstracts certain computational functions to make writing code more feasible
+        \item the next step will be the assembly process, written in pure references of transistor processes
+        \item transistor switching 
+    \end{itemize}
+    \section*{Binary Numer Systems}
+    there are three types of number systems $\rightarrow$ \texttt{Decimal, Binary, Hexadecimal}
+
+    \subsection*{Bits}
+        A \textbf{bit} is simply a single binary value. These are the followin notations for increases in the number of bits.
+        \begin{itemize}
+            \item 8 bit $\rightarrow$ 1 byte
+            \item 16 bits $\rightarrow$ 1 words, 2 bytes
+            \item 32 bits $\rightarrow$ 2 words, 4 bytes (floats)
+            \item 64 bits $\rightarrow$ 2 longs, 4 words, 8 bytes (double in programming)
+        \end{itemize}
+        64 bits are usually called a \texttt{long long} in hardware. Additionally, B $\rightarrow$ bytes 8B is 8 btes, and b $\rightarrow$ bits, 4b is 4 bits.
+        \par $2^n$, where n is the number os bits, is the number of possible values that could be represented by said number of bits. This entails
+        \begin{itemize}
+            \item Min and max number a binary 
+            \item possible input combination to a digital circuit
+        \end{itemize}
+
+        \section*{Number System}
+        Numbers in everyday use are reffered to as decimal Numbers
+        \[7,392=(7*10^3)+(3*10^2)+(9*10^1)+(2*10^0)\]
+        Value of \# = $V_0(B^d)+V_0(B^d)+V_0(B^d)...$ where V is the value of a digit, B is the base, and d is the digit's place.\par 
+        Binary systems are base 2, only compirsed of the value 1 \& 0. Hexadecimal an doctal numvers are base 16 and 8 respectively. Hex digits have 16 values, and octal digits have 8 values. \par
+        Subscripts to the right most of a digit denotes its base.
+        \begin{itemize}
+            \item $1101_{10}$ $\rightarrow$ base 10
+            \item $1101_{2}\rightarrow$ base 2 
+        \end{itemize}
+
+        \subsection*{Converting Binary to decimal}
+        Raise the value to the power of it's place.
+        10011011 $\downarrow$ [$V_0(B^d)+V_0(B^d)+V_0(B^d)...$]
+        \[2^7*1+2^6*0+2^5*0+2^4*1+2^3*1+2^2*0+2^1*1+2^0*1\]
+        \begin{itemize}
+            \item \texttt{LSB} $\rightarrow$ least Siginficant Bit
+            \item \texttt{MSB} $\rightarrow$ Most Siginficant Bit
+        \end{itemize}
+        *If the LSB is 1, the decimal number is odd, if 0 it's even.
+
+        \subsection*{Converting Decimal to Binary}
+            \begin{itemize}
+                \item Divide decimal number by 2 and remainder is binary value
+                \item continue to divide result by 2 using remainder as binary value
+                \item stop when no more division can occur
+            \end{itemize}
+            10: 10/2 = 0 (LSB), 5/2 = 1, 2/2 = 0, 1/2 = 1
 \end{document}
