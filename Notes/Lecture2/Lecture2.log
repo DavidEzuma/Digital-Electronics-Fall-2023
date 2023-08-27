@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.21)  23 AUG 2023 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.21)  23 AUG 2023 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -76,27 +76,37 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count196
 \l__pdf_internal_box=\box51
 ) (Lecture2.aux)
 \openout1 = `Lecture2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -139,59 +149,72 @@ LaTeX Font Info:    ... okay on input line 11.
 \scratchbox=\box52
 \nofMPsegments=\count198
 \nofMParguments=\count199
-\everyMPshowfont=\toks19
+\everyMPshowfont=\toks20
 \MPscratchCnt=\count266
 \MPscratchDim=\dimen152
 \MPnumerator=\count267
 \makeMPintoPDFobject=\count268
-\everyMPtoPDFconversion=\toks20
+\everyMPtoPDFconversion=\toks21
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
- [1
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 <Hex tables.JPG, id=11, 172.39406pt x 213.79875pt>
 File: Hex tables.JPG Graphic file (type jpg)
 <use Hex tables.JPG>
-Package pdftex.def Info: Hex tables.JPG  used on input line 73.
+Package pdftex.def Info: Hex tables.JPG  used on input line 75.
 (pdftex.def)             Requested size: 142.26378pt x 176.43181pt.
 
-Overfull \hbox (61.79279pt too wide) in paragraph at lines 69--75
-$[]$ $[]$ 
+Overfull \hbox (84.40387pt too wide) in paragraph at lines 70--77
+$[]$   $[]$ 
  []
 
-[2 <./Hex tables.JPG>] (Lecture2.aux)
+
+Overfull \hbox (143.95915pt too wide) in paragraph at lines 78--89
+$[]$   $[]$
+ []
+
+[2 <./Hex tables.JPG>]
+<Octal table.JPG, id=17, 163.3603pt x 108.405pt>
+File: Octal table.JPG Graphic file (type jpg)
+<use Octal table.JPG>
+Package pdftex.def Info: Octal table.JPG  used on input line 98.
+(pdftex.def)             Requested size: 163.3599pt x 108.40472pt.
+
+Overfull \hbox (84.40387pt too wide) in paragraph at lines 93--100
+$[]$   $[]$
+ []
+
+[3 <./Octal table.JPG>] (Lecture2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2375 strings out of 475502
- 37284 string characters out of 5762285
- 1924248 words of memory out of 5000000
- 23656 multiletter control sequences out of 15000+600000
- 563912 words of font info for 56 fonts, out of 8000000 for 9000
+ 2922 strings out of 475502
+ 43761 string characters out of 5762285
+ 1925248 words of memory out of 5000000
+ 24184 multiletter control sequences out of 15000+600000
+ 567507 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,299b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Lecture2.pdf (2 pages, 102813 bytes).
+ 57i,6n,65p,467b,213s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Lecture2.pdf (3 pages, 133112 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

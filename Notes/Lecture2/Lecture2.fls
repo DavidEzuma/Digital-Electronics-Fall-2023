@@ -39,6 +39,10 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Lecture2.aux
@@ -58,6 +62,20 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
@@ -69,6 +87,15 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
@@ -81,6 +108,13 @@ INPUT .\Hex tables.JPG
 INPUT .\Hex tables.JPG
 INPUT .\Hex tables.JPG
 INPUT .\Hex tables.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
+INPUT .\Octal table.JPG
 INPUT Lecture2.aux
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
@@ -98,3 +132,5 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

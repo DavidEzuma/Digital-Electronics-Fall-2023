@@ -3,9 +3,10 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{amssymb}
 
-\title{\texttt{Title}\\\hrulefill}
-\author{Digital Electronics}
+\title{\texttt{Binary Number Systems}\\\hrulefill}
+\author{Digital Electronics | Lecture 2}
 \date{8/23/2023}
 
 \begin{document}
@@ -69,7 +70,32 @@
         \begin{minipage}{8cm}
             Hex is a convenient way of expressing very large Numbers. One digit is 4 bits and the digits range from 0 - F (16 values). A 0x prefix denotes a Hex value (0x90FBE).    
         \end{minipage}
+        \hspace{20pt}
         \begin{minipage}{10cm}
             \includegraphics[width=5cm]{Hex tables.JPG}
         \end{minipage}
+        \subsection*{Converting between Decimal, Binary, and Hex} 
+        \begin{minipage}{10cm}
+            \begin{itemize}
+                \item split the Binary number into groups of four, padding any remaining space with 0s
+                \item replace them with their corresponding Hex value (table will be provided during assessments)
+            \end{itemize}
+        \end{minipage}
+        \hspace{0.05\textwidth}
+        \begin{minipage}{10cm}
+            ~~101111\\0010~~~1111\\~~~2~~~~~F\\0x2F
+        \end{minipage}
+        \vspace{12pt}
+        \par Converting from Decimal to Hex is just that process but in reverse, or you can use the \texttt{remainder divisor method} with \textbf{16} as the base (LSB$\rightarrow$MSB).\\\textbf{Given 590} \[\frac{590}{16}=36~r~14(E),~\frac{36}{16}=2~r~4,~\frac{2}{16}=0~r~2\] \[\therefore~590_{10}=0\textnormal{x}24\textnormal{E}\]
+        This process reversed yeilds \texttt{Hexadecimal}$~\rightarrow~$\texttt{Decimal}.
+
+        \subsection*{Octal}
+        \begin{minipage}{9cm}
+            Octal is a predecesor to Hex, representing 8 possible values (0-7) within each digit. It was useful in the era of data being stored in multiples of 3 (3 bits represent one octal digit).\[1111\rightarrow001~~111\rightarrow1~~7\rightarrow17_8\]  
+        \end{minipage}
+        \hspace{20pt}
+        \begin{minipage}{9cm}
+            \includegraphics{Octal table.JPG}
+        \end{minipage}
+        \vspace{20pt}$\rightarrow$\textbf{LSB}\\\textbf{Given 370} \[\frac{370}{8}=46~r~2,~\frac{46}{8}=5~r~6,~\frac{5}{8}=0~r~5\] \[\therefore~370_{10}=562_8\]
 \end{document}
