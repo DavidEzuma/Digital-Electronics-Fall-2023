@@ -25,22 +25,22 @@
     \subsection*{Bits}
         A \textbf{bit} is simply a single binary value. These are the following notations for increases in the number of bits.
         \begin{itemize}
-            \item 8 bit $\rightarrow$ 1 byte
+            \item 8 bits $\rightarrow$ 1 byte
             \item 16 bits $\rightarrow$ 1 words, 2 bytes
             \item 32 bits $\rightarrow$ 2 words, 4 bytes (floats)
             \item 64 bits $\rightarrow$ 2 longs, 4 words, 8 bytes (double in programming)
         \end{itemize}
-        64 bits are usually called a \texttt{long long} in hardware. Additionally, B $\rightarrow$ bytes 8B is 8 btes, and b $\rightarrow$ bits, 4b is 4 bits.
+        64 bits are usually called a \texttt{long long} in hardware. Additionally, B $\rightarrow$ bytes (8B is 8 bytes), and b $\rightarrow$ bits, (4b is 4 bits).
         \par $2^n$, where n is the number os bits, is the number of possible values that could be represented by said number of bits. This entails
         \begin{itemize}
-            \item Min and max number a binary 
+            \item Min and max number a binary
             \item possible input combination to a digital circuit
         \end{itemize}
 
         \section*{Number System}
-        Numbers in everyday use are reffered to as decimal Numbers
+        Numbers in everyday use are reffered to as \textbf{Decimal Numbers}
         \[7,392=(7*10^3)+(3*10^2)+(9*10^1)+(2*10^0)\]
-        Value of \# = $V_0(B^d)+V_0(B^d)+V_0(B^d)...$ where V is the value of a digit, B is the base, and d is the digit's place.\par 
+        Value of \# = $V_0(B^d)+V_0(B^d)+V_0(B^d)...$ Where V is the value of a digit, B is the base, and d is the digit's place.\par 
         Binary systems are base 2, only compirsed of the value 1 \& 0. Hexadecimal an doctal numvers are base 16 and 8 respectively. Hex digits have 16 values, and octal digits have 8 values. \par
         Subscripts to the right most of a digit denotes its base.
         \begin{itemize}
@@ -61,8 +61,8 @@
         \subsection*{Converting Decimal to Binary}
             \begin{itemize}
                 \item Divide decimal number by 2 and remainder is binary value
-                \item continue to divide result by 2 using remainder as binary value
-                \item stop when no more division can occur
+                \item Continue to divide result by 2 using remainder as binary value
+                \item Stop when no more division can occur
             \end{itemize}
             10: 10/2 = 0 (LSB), 5/2 = 1, 2/2 = 0, 1/2 = 1
 
@@ -77,8 +77,8 @@
         \subsection*{Converting between Decimal, Binary, and Hex} 
         \begin{minipage}{10cm}
             \begin{itemize}
-                \item split the Binary number into groups of four, padding any remaining space with 0s
-                \item replace them with their corresponding Hex value (table will be provided during assessments)
+                \item Split the Binary number into groups of four, padding any remaining space with 0s
+                \item Replace them with their corresponding Hex value (table will be provided during assessments)
             \end{itemize}
         \end{minipage}
         \hspace{0.05\textwidth}
@@ -86,7 +86,7 @@
             ~~101111\\0010~~~1111\\~~~2~~~~~F\\0x2F
         \end{minipage}
         \vspace{12pt}
-        \par Converting from Decimal to Hex is just that process but in reverse, or you can use the \texttt{remainder divisor method} with \textbf{16} as the base (LSB$\rightarrow$MSB).\\\textbf{Given 590} \[\frac{590}{16}=36~r~14(E),~\frac{36}{16}=2~r~4,~\frac{2}{16}=0~r~2\] \[\therefore~590_{10}=0\textnormal{x}24\textnormal{E}\]
+        \par Converting from Decimal to Hex is the same process, just in reverse, or you can use the \texttt{remainder divisor method} with \textbf{16} as the base (LSB$\rightarrow$MSB).\\\textbf{Given 590} \[\frac{590}{16}=36~r~14(E),~\frac{36}{16}=2~r~4,~\frac{2}{16}=0~r~2\] \[\therefore~590_{10}=0\textnormal{x}24\textnormal{E}\]
         This process reversed yeilds \texttt{Hexadecimal}$~\rightarrow~$\texttt{Decimal}.
 
         \subsection*{Octal}
