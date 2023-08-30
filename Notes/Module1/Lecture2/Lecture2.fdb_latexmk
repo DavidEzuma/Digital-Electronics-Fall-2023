@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1692844256 "c:/Users/User/Documents/Digital-Electronics-Fall-2023/Notes/Lecture2/Lecture2.tex" "Lecture2.pdf" "Lecture2" 1692844257 0
-  "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1692829813 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1693408770 "c:/Users/User/Documents/College/Digital-Electronics-Fall-2023-ESET219/Notes/Module1/Lecture2/Lecture2.tex" "Lecture2.pdf" "Lecture2" 1693408771 0
+  "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693331054 121421 986c656c18d5dae14116b93751df729f ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1676492715 14064 917058a00b5de3935ab79345318d2cd4 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1692654769 24120148 6d4cff82b20476ecd6e79da9bbc2197e ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
@@ -22,6 +22,7 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
@@ -29,6 +30,7 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -55,10 +57,10 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Hex tables.JPG" 1692829147 18663 a69230581f24be27d2614d9115e7f79e ""
-  "Lecture2.aux" 1692844257 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "Lecture2.tex" 1692844255 5363 fe184d43610d9dd31af740a586cbf5c0 ""
+  "Lecture2.aux" 1693408771 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "Lecture2.tex" 1693408769 6026 634895443e295cfe9d3bc2d3477743c4 ""
   "Octal table.JPG" 1692842483 14654 bf379363510ae69de26a393cb7d4d0e0 ""
-  "c:/Users/User/Documents/Digital-Electronics-Fall-2023/Notes/Lecture2/Lecture2.tex" 1692844255 5363 fe184d43610d9dd31af740a586cbf5c0 ""
+  "c:/Users/User/Documents/College/Digital-Electronics-Fall-2023-ESET219/Notes/Module1/Lecture2/Lecture2.tex" 1693408769 6026 634895443e295cfe9d3bc2d3477743c4 ""
   (generated)
   "Lecture2.aux"
   "Lecture2.log"
