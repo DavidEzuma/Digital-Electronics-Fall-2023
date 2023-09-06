@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{circuitikz}
+
+\renewcommand{\rightarrow}{\ra}
+\newenvironment{minipage6cm}{
+  \begin{minipage}{6cm}
+}{
+  \end{minipage}
+}
+
+\title{\texttt{Binary Math}\\\hrulefill}
+\author{digital electronics}
+\date{\small{9/6/2023}}
+
+\begin{document}
+    \maketitle
+
+    \subsubsection*{Decimal Number Range}
+        The range of decimal numbers that can be represented in binary in dependent on whether it's signed or unsinged.The range of decimal numbers for unsigned binary is from 0 to $2^n-1$. for signed binary, it would be from $-(-2^{n-1} + 1)$ to $(-2^{n-1} + 1)$
+        \begin{itemize}
+            \item Using 2s compliment, an additional Negative value can be represented with any given number of bits.
+        \end{itemize}
+\end{document}
