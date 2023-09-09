@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Digital-Electronics-Fall-2023/Lab/Projects/Lab0.bdf
+source_file = 1, D:/Digital-Electronics-Fall-2023/Lab/Projects/Waveform.vwf
+source_file = 1, D:/Digital-Electronics-Fall-2023/Lab/Projects/db/Lab0.cbx.xml
+design_name = hard_block
+design_name = Lab0
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Lab0, 1
+instance = comp, \F~output\, F~output, Lab0, 1
+instance = comp, \pin_name2~input\, pin_name2~input, Lab0, 1
+instance = comp, \pin_name1~input\, pin_name1~input, Lab0, 1
+instance = comp, \inst5~0\, inst5~0, Lab0, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~\, ~QUARTUS_CREATED_UNVM~, Lab0, 1
+instance = comp, \~QUARTUS_CREATED_ADC1~\, ~QUARTUS_CREATED_ADC1~, Lab0, 1
+instance = comp, \~QUARTUS_CREATED_ADC2~\, ~QUARTUS_CREATED_ADC2~, Lab0, 1
