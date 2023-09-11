@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694038840 "d:/Digital-Electronics-Fall-2023/Notes/Module1/Module3/Lecture.tex" "Lecture.pdf" "Lecture" 1694038843 0
+["pdflatex"] 1694468547 "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" "Lecture.pdf" "Lecture" 1694468552 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693920792 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1693941771 14064 2c5fd10aa1bbba72fd3b2cfca734be31 ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693725433 24120578 6b8939710c545f2706943eebd6b214c0 ""
@@ -141,11 +141,12 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673778790 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "LED displays.png" 1694037328 65326 55cbeb385fbf50fec18e598ae31aa109 ""
-  "Lecture.aux" 1694038844 132 027642054d4f54b003cb1b74f53d478d "pdflatex"
-  "Lecture.tex" 1694038840 2886 b78aa034052fcc1434fa64d6215232a3 ""
+  "Lecture.aux" 1694468552 132 027642054d4f54b003cb1b74f53d478d "pdflatex"
+  "Lecture.tex" 1694468546 3079 8cbcc59d294433a95b8114e0938fc25f ""
   "Logic Gates.png" 1694038234 42794 70243afe71fdab656d849fe7fccdf0ad ""
   "Truth Tables.png" 1694038038 14251 7ab89a82aae8a8d823ddc1d41aae9876 ""
-  "d:/Digital-Electronics-Fall-2023/Notes/Module1/Module3/Lecture.tex" 1694038840 2886 b78aa034052fcc1434fa64d6215232a3 ""
+  "circuit1.png" 1694467260 6450 3f97783e5b0488e7261a86cfcfc7821b ""
+  "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" 1694468546 3079 8cbcc59d294433a95b8114e0938fc25f ""
   (generated)
   "Lecture.aux"
   "Lecture.log"

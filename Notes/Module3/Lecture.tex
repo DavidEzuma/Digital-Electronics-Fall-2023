@@ -40,7 +40,7 @@
         \hrulefill
         \begin{itemize}
             \item \textbf{AND} \ra All inputs mus tbe true for the expression too be true. $z=xy,z=x~*~y$
-            \item \textbf{OR} \ra Any 1 input can be true for the expression to be true. $z=x+y$
+           late \item \textbf{OR} \ra Any 1 input can be true for the expression to be true. $z=x+y$
             \item \textbf{NOT} \ra Reverse the expression/scoped output from true to false and vice versa. $z=x'=\bar{x}$
         \end{itemize}
         \begin{center}\includegraphics[width=8cm]{Truth Tables.png}\end{center}
@@ -54,11 +54,13 @@
             \begin{center}\includegraphics[width=9cm]{Logic Gates.png}\end{center}
 
         \subsection*{Boolean Functions}
-            Varibales are used to represent inputs and outputs. in a Boolean function, ANDs appear as a product and ORs appear as a sum. NOT is represented with a ‘ or a bar above the variable.\vspace{10pt} \\
-            \begin{circuitikz} \draw
-                (0,4) node[not port] (not1) {}
-                (4,2) node[and port] (and2) {}
-                (4,4) node[and port] (and1) {}
-                (not1.out) -- (and1.in 1);
-            \end{circuitikz}
+            Varibales are used to represent inputs and outputs. in a Boolean function, ANDs appear as a product and ORs appear as a sum. NOT is represented with a ‘ or a bar above the variable.
+            \begin{itemize}
+                \item In a Boolean function, ANDs appear as a product and ORs appear as a sum. NOT is represented with a ‘ or a bar above the variable
+            \end{itemize}
+            \includegraphics*[width=10cm]{circuit1.png}
+            \begin{enumerate}
+                \item The output of the cicuit, F: 1
+                \item Circuit as a boolean expression: $F=\bar{A}B+CD+\bar{E}$
+            \end{enumerate}
 \end{document}
