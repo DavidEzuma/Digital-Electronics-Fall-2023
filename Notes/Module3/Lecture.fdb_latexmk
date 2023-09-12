@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694470886 "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" "Lecture.pdf" "Lecture" 1694470891 0
+["pdflatex"] 1694543715 "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" "Lecture.pdf" "Lecture" 1694543719 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693920792 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1693941771 14064 2c5fd10aa1bbba72fd3b2cfca734be31 ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693725433 24120578 6b8939710c545f2706943eebd6b214c0 ""
@@ -27,6 +27,7 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -141,13 +142,15 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673778790 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "LED displays.png" 1694037328 65326 55cbeb385fbf50fec18e598ae31aa109 ""
-  "Lecture.aux" 1694470892 132 a85e8ecc408ce949953162ea6754c36e "pdflatex"
-  "Lecture.tex" 1694470886 3708 aabd8cbf47d856b9355812d35e56a330 ""
+  "Lecture.aux" 1694543720 437 0a4a612cf7864180d3dce690a3210dbd "pdflatex"
+  "Lecture.tex" 1694543716 4717 59bddfa91c17e4b02dd348d11af8f021 ""
   "Logic Gates.png" 1694038234 42794 70243afe71fdab656d849fe7fccdf0ad ""
+  "NAND.png" 1694543240 12735 85a184c45aa6ebfc8892e7822ee7f189 ""
+  "NOR.png" 1694543430 23241 c67d9181da713ea2b6ebe2d755d7c177 ""
   "Timing Diagram.png" 1694470212 18919 f2116c62614e6c3c9c2da4b6504f46a1 ""
   "Truth Tables.png" 1694038038 14251 7ab89a82aae8a8d823ddc1d41aae9876 ""
   "circuit1.png" 1694467260 6450 3f97783e5b0488e7261a86cfcfc7821b ""
-  "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" 1694470886 3708 aabd8cbf47d856b9355812d35e56a330 ""
+  "d:/Digital-Electronics-Fall-2023/Notes/Module3/Lecture.tex" 1694543716 4717 59bddfa91c17e4b02dd348d11af8f021 ""
   (generated)
   "Lecture.aux"
   "Lecture.log"

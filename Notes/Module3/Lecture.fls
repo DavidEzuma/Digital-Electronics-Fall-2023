@@ -231,7 +231,6 @@ OUTPUT Lecture.pdf
 INPUT .\LED displays.png
 INPUT .\LED displays.png
 INPUT .\LED displays.png
-INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
@@ -243,6 +242,7 @@ INPUT .\Truth Tables.png
 INPUT .\Truth Tables.png
 INPUT .\Truth Tables.png
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Logic Gates.png
 INPUT .\Logic Gates.png
 INPUT .\Logic Gates.png
@@ -264,6 +264,20 @@ INPUT .\Timing Diagram.png
 INPUT .\Timing Diagram.png
 INPUT .\Timing Diagram.png
 INPUT .\Timing Diagram.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NAND.png
+INPUT .\NOR.png
+INPUT .\NOR.png
+INPUT .\NOR.png
+INPUT .\NOR.png
+INPUT .\NOR.png
+INPUT .\NOR.png
+INPUT .\NOR.png
 INPUT Lecture.aux
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
@@ -271,6 +285,8 @@ INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb

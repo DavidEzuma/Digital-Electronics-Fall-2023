@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  11 SEP 2023 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  12 SEP 2023 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -415,40 +415,51 @@ Package pdftex.def Info: Truth Tables.png  used on input line 46.
 (pdftex.def)             Requested size: 227.62204pt x 98.41245pt.
 [1
 
-{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./LED displays.png> <./Truth Tables.png>]
-<Logic Gates.png, id=22, 319.94531pt x 133.24782pt>
+{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./LED displays.png>]
+<Logic Gates.png, id=21, 319.94531pt x 133.24782pt>
 File: Logic Gates.png Graphic file (type png)
 <use Logic Gates.png>
 Package pdftex.def Info: Logic Gates.png  used on input line 54.
 (pdftex.def)             Requested size: 256.0748pt x 106.64922pt.
-<circuit1.png, id=23, 392.96812pt x 155.07938pt>
+<circuit1.png, id=22, 392.96812pt x 155.07938pt>
 File: circuit1.png Graphic file (type png)
 <use circuit1.png>
 Package pdftex.def Info: circuit1.png  used on input line 61.
 (pdftex.def)             Requested size: 284.52756pt x 112.29121pt.
-<Timing Diagram.png, id=25, 297.36093pt x 252.19218pt>
+ [2 <./Truth Tables.png> <./Logic Gates.png> <./circuit1.png>]
+<Timing Diagram.png, id=31, 297.36093pt x 252.19218pt>
 File: Timing Diagram.png Graphic file (type png)
 <use Timing Diagram.png>
 Package pdftex.def Info: Timing Diagram.png  used on input line 75.
 (pdftex.def)             Requested size: 142.26378pt x 120.65065pt.
- [2 <./Logic Gates.png> <./circuit1.png>] [3 <./Timing Diagram.png>] (Lecture.aux)
+<NAND.png, id=33, 493.845pt x 128.73094pt>
+File: NAND.png Graphic file (type png)
+<use NAND.png>
+Package pdftex.def Info: NAND.png  used on input line 90.
+(pdftex.def)             Requested size: 284.52756pt x 74.16702pt.
+<NOR.png, id=35, 468.24937pt x 154.32657pt>
+File: NOR.png Graphic file (type png)
+<use NOR.png>
+Package pdftex.def Info: NOR.png  used on input line 94.
+(pdftex.def)             Requested size: 284.52756pt x 93.77876pt.
+ [3 <./Timing Diagram.png> <./NAND.png>] [4 <./NOR.png>] (Lecture.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 29472 strings out of 475503
- 765386 string characters out of 5761835
+ 29486 strings out of 475503
+ 765587 string characters out of 5761835
  1923248 words of memory out of 5000000
- 50461 multiletter control sequences out of 15000+600000
+ 50475 multiletter control sequences out of 15000+600000
  568154 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,6n,107p,455b,213s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Lecture.pdf (3 pages, 232568 bytes).
+ <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Lecture.pdf (4 pages, 279319 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
