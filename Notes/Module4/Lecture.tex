@@ -22,4 +22,47 @@
     \maketitle
 
     \section{Logic Design}
+    Logic gates are put together to create a circuit that performs an operation based on the inputs.
+        \begin{itemize}\vspace{3pt}
+            \item If the open-door sensor is on AND the security is armed then sound the alarm.
+            \item If launch sequences 1 AND 2 AND 3 are ready OR the principal sequence is ready AND the
+            rocket is fueled, then launch the rocket
+        \end{itemize}
+    Basic logic design using logic gates is thus far known as \texttt{combinational logic design}. As soon as the input is changed, the output is changed, and there is no \underbar{synchronization} or \underbar{clocking involved}
+
+    \subsection*{combinational logic}
+        Can have any number of inputs and outputs. These operations are defined by the logic circuits according to their design.
+
+        \subsubsection*{Tutorial of such}
+            \begin{enumerate}
+                \item Use a truth table to first define the behaviour
+                \item How many outputs are needed
+                \item What combination of inputs will make the outputs \texttt{high} or \texttt{low}
+            \end{enumerate}
+
+        \subsubsection*{Example}
+            A porch lighting system uses a light sensor to detect if it is dark or light outside. It also contains a motion sensor to detect if someone walks in front of the sensor to turn on a porch light. Also
+            attached to the system is a simple light switch which will turn on and off the porch light.
+            \begin{center}\textbf{Operation}\end{center}
+                \begin{itemize}
+                    \item If it's dark outside \textbf{and} somone crosses the motion sensor, the porch light will come on
+                    \item If it's light outside, the motion sensor will not turn on the porch light
+                    \item Regardless of if it's light or dark outside, the light switch will turn on the porch light
+                \end{itemize}
+            
+            \begin{center}\textbf{Inputs and Outputs}\end{center}
+                \begin{6mini}
+                    \textbf{Inputs are:}
+                    \begin{itemize}
+                        \item light sensor
+                        \item Motion sensor
+                        \item switch
+                    \end{itemize}
+                \end{6mini}
+                \begin{6mini} \vspace{6pt}
+                    \textbf{Outputs are:}
+                    \begin{itemize}
+                        \item Porch light
+                    \end{itemize}
+                \end{6mini}
 \end{document}
