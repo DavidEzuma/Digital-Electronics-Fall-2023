@@ -1,0 +1,47 @@
+# do Block1.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:59:32 on Sep 13,2023
+# vcom -work work Block1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity Block1
+# -- Compiling architecture structure of Block1
+# End time: 16:59:32 on Sep 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:59:33 on Sep 13,2023
+# vcom -work work Block1Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Block1_vhd_vec_tst
+# -- Compiling architecture Block1_arch of Block1_vhd_vec_tst
+# End time: 16:59:33 on Sep 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Block1_vhd_vec_tst 
+# Start time: 16:59:33 on Sep 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.block1_vhd_vec_tst(block1_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.block1(structure)
+# Loading work.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# after#31
+# End time: 16:59:35 on Sep 13,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
