@@ -51,13 +51,13 @@
                 \end{itemize}
             
             \begin{center}\textbf{Inputs and Outputs}\end{center}
-                \begin{6mini}
-                    \textbf{Inputs are:}
-                    \begin{itemize}
-                        \item light sensor
-                        \item Motion sensor
-                        \item switch
-                    \end{itemize}
+            \begin{6mini}
+                \textbf{Inputs are:}
+                \begin{itemize}
+                    \item light sensor
+                    \item Motion sensor
+                    \item switch
+                \end{itemize}
                 \end{6mini}
                 \begin{6mini} \vspace{6pt}
                     \textbf{Outputs are:}
@@ -65,4 +65,26 @@
                         \item Porch light
                     \end{itemize}
                 \end{6mini}
+            \begin{center}\textbf{Create a truth table of the process}\end{center}
+
+            \section*{Minterm \& Maxterm}
+            make Logically equivalent circuits with different implementations
+                \begin{itemize}
+                    \item Minterm represents 1 on truth table output.
+                \end{itemize}
+                \[m_1=x'y'z,~m_3=x'yz,~m_6=xyz',~m_7=xyz\]
+                \begin{itemize}
+                    \item Maxterm represents 0 on truth table output.
+                \end{itemize}
+                \[m_0=x+y_z,~m_2=x+y'+z,~m_4=x'+y+z,~m_5=x'+y+z'\]
+                \includegraphics*[width=6cm]{MintermsMaxterms.jpg}
+                    
+            \subsection*{Minterm or SOP}
+            \textbf{SOP:Sum Of Product}:*Or all minterms together \[F=x'y'z+x'yz+xyz'+xyz\] \[F=m_1m_3m_6m_7\]
+            This expression is a sum of products.
+            \subsection*{Maxterm or POS}
+            \textbf{POS: Product Of Sums}: \[F=(x+y+z)\cdot(x+y'+z)\cdot(x'+y+z)\cdot(x'+y+z')\] \[F=M_0M_2m_4m_5\] *Expression if the product of the sums
+
+            \section*{Canonical Form} 
+            Representing the output of a truth table \texttt{using minterms and maxterms} is known as canonical form.
 \end{document}
