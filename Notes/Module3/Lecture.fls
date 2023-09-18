@@ -202,6 +202,7 @@ INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
@@ -278,6 +279,20 @@ INPUT .\NOR.png
 INPUT .\NOR.png
 INPUT .\NOR.png
 INPUT .\NOR.png
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
+INPUT .\XNOR gate.jpg
 INPUT Lecture.aux
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk

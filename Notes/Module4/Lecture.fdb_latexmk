@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694643810 "d:/Digital-Electronics-Fall-2023/Notes/Module4/Lecture.tex" "Lecture.pdf" "Lecture" 1694643814 0
+["pdflatex"] 1694902971 "d:/Digital-Electronics-Fall-2023/Notes/Module4/Lecture.tex" "Lecture.pdf" "Lecture" 1694902976 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693920792 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1693941771 14064 2c5fd10aa1bbba72fd3b2cfca734be31 ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693725433 24120578 6b8939710c545f2706943eebd6b214c0 ""
@@ -135,9 +135,9 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673778790 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673778790 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Lecture.aux" 1694643814 132 883b5904c6d1650609ca00e431e819bb "pdflatex"
-  "Lecture.tex" 1694643808 3054 e5b49baf282a6d19cab1b995add6f3c8 ""
-  "d:/Digital-Electronics-Fall-2023/Notes/Module4/Lecture.tex" 1694643808 3054 e5b49baf282a6d19cab1b995add6f3c8 ""
+  "Lecture.aux" 1694902976 132 883b5904c6d1650609ca00e431e819bb "pdflatex"
+  "Lecture.tex" 1694902970 3063 86e743fe800510de882f70df9191f690 ""
+  "d:/Digital-Electronics-Fall-2023/Notes/Module4/Lecture.tex" 1694902970 3063 86e743fe800510de882f70df9191f690 ""
   (generated)
   "Lecture.aux"
   "Lecture.log"
