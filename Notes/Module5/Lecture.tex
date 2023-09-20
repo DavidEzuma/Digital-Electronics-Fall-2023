@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+
+\newcommand{\ra}{$\rightarrow$}
+\newenvironment{6mini}{
+  \begin{minipage}{6cm}
+}{
+  \end{minipage}
+}
+
+\title{\texttt{Boolean Algebra, K Map}\\\hrulefill}
+\author{Module 5}
+\date{\small{9/18/2023}}
+
+\begin{document}
+    \maketitle
+
+    \section{Boolean algebra}
+        Logic is represented by boolean equations. As with any equation, there exists simplification.
+        \begin{itemize}
+            \item allows for simplification methods
+            \item Leads to smaller logic cicuits
+        \end{itemize}
+        
+        \subsection*{Laws of AND \& OR}
+            $xx'=0$~~~~~$x1=x$~~~~~$x0=0$~~~~~$xx=x$\\
+            $x+x'=1$~~~~~$x+1=1$~~~~~$x+0=x$~~~~~$x+x=x$
+        
+      \begin{6mini}\vspace*{15pt}  
+        \subsubsection*{Communitive}
+          x+y=y+x\\xy=yx
+      \end{6mini}
+      \begin{6mini}\vspace*{15pt}
+        \subsubsection*{Associative}  
+          x + (y + z) = (x + y) + z\\x(yz) = (xy)z
+      \end{6mini}
+      \begin{6mini}
+        \subsubsection*{distributive}  
+          \[x(y+z) = xy + xz\] \[(x+y)*(x+z)\] \[xx+xz+xy+yz\] \[x(1+1z+1y)+yz\] \[x+yz\]
+      \end{6mini}
+
+      \subsubsection*{Absorption}
+        \[X+XY=X+Y\] \[X'+XY=X'+Y\]
+
+      \section*{De Morgan's Law}
+        \[\bar{AB}=\bar{A}+\bar{B}\]
+\end{document}
