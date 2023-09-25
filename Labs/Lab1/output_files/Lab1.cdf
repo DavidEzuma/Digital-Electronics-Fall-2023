@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484) Path("D:/Digital-Electronics-Fall-2023/Lab/output_files/") File("Lab1.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484) Path("D:/Digital-Electronics-Fall-2023/Labs/Lab1/output_files/") File("Lab1.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

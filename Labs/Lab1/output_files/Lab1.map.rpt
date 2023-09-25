@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab1
-Sat Sep 16 21:52:14 2023
+Fri Sep 22 15:34:54 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -10,7 +10,13 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -37,22 +43,22 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Sat Sep 16 21:52:14 2023              ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 22 15:34:54 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Lab1                                           ;
 ; Top-level Entity Name              ; Task2_Combination                              ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; N/A until Partition Merge                      ;
-;     Total combinational functions  ; N/A until Partition Merge                      ;
-;     Dedicated logic registers      ; N/A until Partition Merge                      ;
-; Total registers                    ; N/A until Partition Merge                      ;
-; Total pins                         ; N/A until Partition Merge                      ;
-; Total virtual pins                 ; N/A until Partition Merge                      ;
-; Total memory bits                  ; N/A until Partition Merge                      ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                      ;
-; Total PLLs                         ; N/A until Partition Merge                      ;
-; UFM blocks                         ; N/A until Partition Merge                      ;
-; ADC blocks                         ; N/A until Partition Merge                      ;
+; Total logic elements               ; 5                                              ;
+;     Total combinational functions  ; 5                                              ;
+;     Dedicated logic registers      ; 0                                              ;
+; Total registers                    ; 0                                              ;
+; Total pins                         ; 8                                              ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
+; UFM blocks                         ; 0                                              ;
+; ADC blocks                         ; 0                                              ;
 +------------------------------------+------------------------------------------------+
 
 
@@ -158,34 +164,134 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+; Combine/Task2_XY.bdf             ; yes             ; User Block Diagram/Schematic File  ; D:/Digital-Electronics-Fall-2023/Labs/Lab1/Combine/Task2_XY.bdf          ;         ;
+; Combine/Task2_GFE.bdf            ; yes             ; User Block Diagram/Schematic File  ; D:/Digital-Electronics-Fall-2023/Labs/Lab1/Combine/Task2_GFE.bdf         ;         ;
+; Combine/Task2_Combination.bdf    ; yes             ; User Block Diagram/Schematic File  ; D:/Digital-Electronics-Fall-2023/Labs/Lab1/Combine/Task2_Combination.bdf ;         ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary           ;
++---------------------------------------------+---------+
+; Resource                                    ; Usage   ;
++---------------------------------------------+---------+
+; Estimated Total logic elements              ; 5       ;
+;                                             ;         ;
+; Total combinational functions               ; 5       ;
+; Logic element usage by number of LUT inputs ;         ;
+;     -- 4 input functions                    ; 2       ;
+;     -- 3 input functions                    ; 0       ;
+;     -- <=2 input functions                  ; 3       ;
+;                                             ;         ;
+; Logic elements by mode                      ;         ;
+;     -- normal mode                          ; 5       ;
+;     -- arithmetic mode                      ; 0       ;
+;                                             ;         ;
+; Total registers                             ; 0       ;
+;     -- Dedicated logic registers            ; 0       ;
+;     -- I/O registers                        ; 0       ;
+;                                             ;         ;
+; I/O pins                                    ; 8       ;
+;                                             ;         ;
+; Embedded Multiplier 9-bit elements          ; 0       ;
+;                                             ;         ;
+; Maximum fan-out node                        ; A~input ;
+; Maximum fan-out                             ; 3       ;
+; Total fan-out                               ; 25      ;
+; Average fan-out                             ; 1.19    ;
++---------------------------------------------+---------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                     ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                ; Entity Name       ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------+-------------------+--------------+
+; |Task2_Combination         ; 5 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 8    ; 0            ; 0          ; |Task2_Combination                 ; Task2_Combination ; work         ;
+;    |Task2_GFE:inst2|       ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Task2_Combination|Task2_GFE:inst2 ; Task2_GFE         ; work         ;
+;    |Task2_XY:inst|         ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |Task2_Combination|Task2_XY:inst   ; Task2_XY          ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------+-------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 8                           ;
+; cycloneiii_lcell_comb ; 6                           ;
+;     normal            ; 6                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 3                           ;
+;         4 data inputs ; 2                           ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 2.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sat Sep 16 21:51:32 2023
+    Info: Processing started: Fri Sep 22 15:34:29 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab1 -c Lab1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file task2_xy.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file combine/task2_xy.bdf
     Info (12023): Found entity 1: Task2_XY
-Info (12021): Found 1 design units, including 1 entities, in source file task1.bdf
-    Info (12023): Found entity 1: Task1
-Info (12021): Found 1 design units, including 1 entities, in source file task2_gfe.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file combine/task2_gfe.bdf
     Info (12023): Found entity 1: Task2_GFE
-Info (12021): Found 1 design units, including 1 entities, in source file task2_combination.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file combine/task2_combination.bdf
     Info (12023): Found entity 1: Task2_Combination
+Info (12021): Found 1 design units, including 1 entities, in source file combine/task1.bdf
+    Info (12023): Found entity 1: Task1
 Info (12127): Elaborating entity "Task2_Combination" for the top level hierarchy
-Error (275044): Port "A" of type Task2_XY of instance "inst" is missing source signal
-Error (275044): Port "B" of type Task2_XY of instance "inst" is missing source signal
-Error (275044): Port "A" of type Task2_GFE of instance "inst2" is missing source signal
-Error (275044): Port "B" of type Task2_GFE of instance "inst2" is missing source signal
-Error (12153): Can't elaborate top-level user hierarchy
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 5 errors, 1 warning
-    Error: Peak virtual memory: 4724 megabytes
-    Error: Processing ended: Sat Sep 16 21:52:15 2023
-    Error: Elapsed time: 00:00:43
-    Error: Total CPU time (on all processors): 00:00:37
+Info (12128): Elaborating entity "Task2_GFE" for hierarchy "Task2_GFE:inst2"
+Info (12128): Elaborating entity "Task2_XY" for hierarchy "Task2_XY:inst"
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 13 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 3 output pins
+    Info (21061): Implemented 5 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4786 megabytes
+    Info: Processing ended: Fri Sep 22 15:34:55 2023
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:45
 
 
