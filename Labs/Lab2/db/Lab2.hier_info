@@ -1,0 +1,22 @@
+|P_SOP
+P <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => m11.IN1
+A => m13.IN1
+B => inst1.IN0
+B => m5.IN2
+B => m7.IN1
+B => m13.IN2
+D => inst3.IN0
+D => m5.IN3
+D => m3.IN3
+D => m7.IN3
+D => m11.IN3
+D => m13.IN3
+C => m2.IN3
+C => inst2.IN0
+C => m3.IN2
+C => m7.IN2
+C => m11.IN2
+
+
