@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  27 SEP 2023 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  27 SEP 2023 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,26 +392,53 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<kmap Example1.jpg, id=4, 724.95844pt x 237.13594pt>
+File: kmap Example1.jpg Graphic file (type jpg)
+<use kmap Example1.jpg>
+Package pdftex.def Info: kmap Example1.jpg  used on input line 35.
+(pdftex.def)             Requested size: 483.69684pt x 158.2217pt.
 
-{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Lecture.aux)
+Overfull \hbox (30.72894pt too wide) in paragraph at lines 35--36
+[] 
+ []
+
+<kmap Example2.jpg, id=6, 542.025pt x 159.59625pt>
+File: kmap Example2.jpg Graphic file (type jpg)
+<use kmap Example2.jpg>
+Package pdftex.def Info: kmap Example2.jpg  used on input line 44.
+(pdftex.def)             Requested size: 284.52756pt x 83.77953pt.
+[1
+
+{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./kmap Example1.jpg>]
+<groups of 4.jpg, id=19, 206.27063pt x 136.25906pt>
+File: groups of 4.jpg Graphic file (type jpg)
+<use groups of 4.jpg>
+Package pdftex.def Info: groups of 4.jpg  used on input line 55.
+(pdftex.def)             Requested size: 569.05511pt x 375.94438pt.
+
+Overfull \hbox (372.38892pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/12 group A sim-pli-fies to z and group B sim-pli-fies to xy [] 
+ []
+
+[2 <./kmap Example2.jpg> <./groups of 4.jpg>] (Lecture.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 29402 strings out of 475503
- 764120 string characters out of 5761835
- 1918248 words of memory out of 5000000
- 50399 multiletter control sequences out of 15000+600000
- 562677 words of font info for 54 fonts, out of 8000000 for 9000
+ 29450 strings out of 475503
+ 764910 string characters out of 5761835
+ 1922248 words of memory out of 5000000
+ 50440 multiletter control sequences out of 15000+600000
+ 567807 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,6n,107p,458b,213s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Lecture.pdf (1 page, 40493 bytes).
+ <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Lecture.pdf (2 pages, 129404 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

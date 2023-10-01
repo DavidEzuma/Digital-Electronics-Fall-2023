@@ -1,4 +1,22 @@
-|P_SOP
+|Results
+P <= P_SOP:inst.P
+A => P_SOP:inst.A
+A => S_POS:inst2.A
+A => D_SOP:inst3.A
+B => P_SOP:inst.B
+B => S_POS:inst2.B
+B => D_SOP:inst3.B
+C => P_SOP:inst.C
+C => S_POS:inst2.C
+C => D_SOP:inst3.C
+D => P_SOP:inst.D
+D => S_POS:inst2.D
+D => D_SOP:inst3.D
+S <= S_POS:inst2.S
+Divis3 <= D_SOP:inst3.Divis3
+
+
+|Results|P_SOP:inst
 P <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => m11.IN1
@@ -18,5 +36,53 @@ C => inst2.IN0
 C => m3.IN2
 C => m7.IN2
 C => m11.IN2
+
+
+|Results|S_POS:inst2
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => M3.IN0
+A => M5.IN0
+A => M2.IN0
+A => M6.IN0
+C => M8.IN1
+C => inst2.IN0
+C => M5.IN3
+C => M13.IN1
+C => M12.IN1
+D => M8.IN2
+D => M10.IN2
+D => inst3.IN0
+D => M12.IN2
+D => M14.IN2
+D => M2.IN2
+D => M7.IN0
+D => M6.IN3
+B => M8.IN3
+B => M10.IN1
+B => M3.IN3
+B => inst1.IN0
+B => M11.IN0
+B => M2.IN3
+
+
+|Results|D_SOP:inst3
+Divis3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => m9.IN0
+A => m12.IN0
+A => m15.IN0
+B => inst1.IN0
+B => m6.IN1
+B => m12.IN1
+B => m15.IN1
+C => inst2.IN0
+C => m6.IN2
+C => m3.IN2
+C => m15.IN2
+D => inst3.IN0
+D => m3.IN3
+D => m9.IN3
+D => m15.IN3
 
 

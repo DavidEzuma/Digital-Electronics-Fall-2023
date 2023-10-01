@@ -7,7 +7,7 @@ Note: if both Questa Intel FPGA Edition and ModelSim executables are available, 
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Lab2 -c Lab2 --vector_source="D:/Digital-Electronics-Fall-2023/Labs/Lab2/Waveform_D.vwf" --testbench_file="D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/Waveform_D.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Lab2 -c Lab2 --vector_source="D:/Digital-Electronics-Fall-2023/Labs/Lab2/WaveformAll.vwf" --testbench_file="D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/WaveformAll.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,8 +26,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sun Sep 24 21:18:07 2023
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Lab2 -c Lab2 --vector_source=D:/Digital-Electronics-Fall-2023/Labs/Lab2/Waveform_D.vwf --testbench_file=D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/Waveform_D.vwf.vht
+    Info: Processing started: Sat Sep 30 23:43:37 2023
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Lab2 -c Lab2 --vector_source=D:/Digital-Electronics-Fall-2023/Labs/Lab2/WaveformAll.vwf --testbench_file=D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/WaveformAll.vwf.vht
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
@@ -53,13 +53,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sun Sep 24 21:18:09 2023
+    Info: Processing started: Sat Sep 30 23:43:40 2023
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/ Lab2 -c Lab2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file Lab2.vho in folder "D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4647 megabytes
-    Info: Processing ended: Sun Sep 24 21:18:11 2023
+    Info: Processing ended: Sat Sep 30 23:43:42 2023
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -87,7 +87,7 @@ Reading pref.tcl
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 21:18:14 on Sep 24,2023
+# Start time: 23:43:45 on Sep 30,2023
 # vcom -work work Lab2.vho 
 
 # -- Loading package STANDARD
@@ -108,18 +108,18 @@ Reading pref.tcl
 
 # -- Compiling architecture structure of hard_block
 
-# -- Compiling entity D_SOP
+# -- Compiling entity Results
 
-# -- Compiling architecture structure of D_SOP
+# -- Compiling architecture structure of Results
 
-# End time: 21:18:15 on Sep 24,2023, Elapsed time: 0:00:01
+# End time: 23:43:45 on Sep 30,2023, Elapsed time: 0:00:00
 
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 21:18:15 on Sep 24,2023
-# vcom -work work Waveform_D.vwf.vht 
+# Start time: 23:43:45 on Sep 30,2023
+# vcom -work work WaveformAll.vwf.vht 
 
 # -- Loading package STANDARD
 
@@ -127,25 +127,25 @@ Reading pref.tcl
 
 # -- Loading package std_logic_1164
 
-# -- Compiling entity D_SOP_vhd_vec_tst
+# -- Compiling entity Results_vhd_vec_tst
 
-# -- Compiling architecture D_SOP_arch of D_SOP_vhd_vec_tst
+# -- Compiling architecture Results_arch of Results_vhd_vec_tst
 
-# End time: 21:18:15 on Sep 24,2023, Elapsed time: 0:00:00
+# End time: 23:43:45 on Sep 30,2023, Elapsed time: 0:00:00
 
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.D_SOP_vhd_vec_tst 
-# Start time: 21:18:15 on Sep 24,2023
+# vsim -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Results_vhd_vec_tst 
+# Start time: 23:43:45 on Sep 30,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.d_sop_vhd_vec_tst(d_sop_arch)
+# Loading work.results_vhd_vec_tst(results_arch)
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
 # Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
 # Loading fiftyfivenm.fiftyfivenm_components
-# Loading work.d_sop(structure)
+# Loading work.results(structure)
 # Loading work.hard_block(structure)
 # Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
 # Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
@@ -155,20 +155,20 @@ Reading pref.tcl
 
 # after#33
 
-# End time: 21:18:17 on Sep 24,2023, Elapsed time: 0:00:02
+# End time: 23:43:47 on Sep 30,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading D:/Digital-Electronics-Fall-2023/Labs/Lab2/Waveform_D.vwf...
+Reading D:/Digital-Electronics-Fall-2023/Labs/Lab2/WaveformAll.vwf...
 
 Reading D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/Lab2.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/Lab2_20230924211817.sim.vwf
+Writing the resulting VWF to D:/Digital-Electronics-Fall-2023/Labs/Lab2/simulation/qsim/Lab2_20230930234347.sim.vwf
 
 Finished VCD to VWF conversion.
 

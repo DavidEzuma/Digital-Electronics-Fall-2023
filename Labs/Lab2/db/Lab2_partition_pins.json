@@ -8,6 +8,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "S",
+					"strict" : false
+				},
+				{
+					"name" : "Divis3",
+					"strict" : false
+				},
+				{
 					"name" : "D",
 					"strict" : false
 				},

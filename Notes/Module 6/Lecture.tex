@@ -24,5 +24,34 @@
     \section{K maps}
       \begin{itemize}
         \item Gives a graphical method to  find a simplified logic circuit
+        \item used to create an SOP or POS circuit from truth table
       \end{itemize}
+      
+      \subsection*{With minterms:}
+          \begin{itemize}
+            \item Shows the possible minterms values for iputs x and y
+            \item A square for each output of truth table, mark each square where a 1 occurs on truth table
+          \end{itemize}
+          \includegraphics*[width=17cm]{kmap Example1.jpg}
+
+          \subsection*{Simplifying K amp}
+            \begin{itemize}
+              \item Group as many 1s in powers of two that are adjacent vertically \& horizontally (diagonals are not permitted).
+              \item Observe the input value of the variable between each group of 1s: if it changes \ra \texttt{remove the variable}, if it doesn't change \ra \texttt{keep that variable}.
+              \item Isolated 1s do not simplify
+              \item Variables that stay are \texttt{AND}ed together in a group of 1s. All groups of 1s are ORed together.
+            \end{itemize}
+            \includegraphics*[width=10cm]{kmap Example2.jpg}
+
+            \subsection*{Avoid redundancy}
+              \begin{itemize}
+                \item A redundant group is captured if all 1s in said group are a part of another. Overlap is fine, so long as it's not redundant.
+                \item \textbf{Redundant circling is not simplified in Karnaugh maps}.
+              \end{itemize}
+              \hrulefill
+
+             \subsection*{Groups of 4 1s}
+              group A simplifies to z and group B simplifies to xy
+              \includegraphics*[width=20cm]{groups of 4.jpg}
+              
 \end{document}
