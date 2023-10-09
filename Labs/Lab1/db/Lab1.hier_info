@@ -1,37 +1,9 @@
 |Task2_Combination
-G <= Task2_GFE:inst2.G
-A => Task2_GFE:inst2.A
-A => Task2_XY:inst.A
-B => Task2_GFE:inst2.B
-B => Task2_XY:inst.B
-C => Task2_XY:inst.C
-D => Task2_XY:inst.D
-S => Task2_XY:inst.S
-F <= Task2_GFE:inst2.F
-E <= Task2_GFE:inst2.E
-
-
-|Task2_Combination|Task2_GFE:inst2
-G <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-X => inst3.IN0
-X => inst5.IN0
-Y => inst3.IN1
-Y => inst5.IN1
-Y => inst4.IN1
-B => inst.IN0
-A => inst.IN1
-F <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-E <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Task2_Combination|Task2_XY:inst
-X <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-B => inst.IN1
-Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-D => inst1.IN0
-S => inst1.IN1
-S => inst2.IN0
-C => inst3.IN0
+F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst1.IN0
+Y => inst2.IN1
+Z => inst3.IN1
+Z => inst.IN0
+X => inst2.IN0
 
 

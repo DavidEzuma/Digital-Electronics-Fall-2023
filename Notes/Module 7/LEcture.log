@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  2 OCT 2023 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.3)  9 OCT 2023 13:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,24 +426,51 @@ File: CascadingDecoder.png Graphic file (type png)
 <use CascadingDecoder.png>
 Package pdftex.def Info: CascadingDecoder.png  used on input line 63.
 (pdftex.def)             Requested size: 426.79134pt x 159.21779pt.
- [2 <./Two4Decoder.png> <./3x8decoder.png>] [3 <./CascadingDecoder.png>] (LEcture.aux)
+ [2 <./Two4Decoder.png> <./3x8decoder.png>]
+<CascadingDecoder2.png, id=24, 630.10406pt x 292.84406pt>
+File: CascadingDecoder2.png Graphic file (type png)
+<use CascadingDecoder2.png>
+Package pdftex.def Info: CascadingDecoder2.png  used on input line 80.
+(pdftex.def)             Requested size: 426.79134pt x 198.3538pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--81
+
+ []
+
+[3 <./CascadingDecoder.png> <./CascadingDecoder2.png>]
+<AddingEnables.png, id=32, 395.97937pt x 265.74281pt>
+File: AddingEnables.png Graphic file (type png)
+<use AddingEnables.png>
+Package pdftex.def Info: AddingEnables.png  used on input line 91.
+(pdftex.def)             Requested size: 284.52756pt x 190.94945pt.
+<mintermDecoder.png, id=33, 578.16pt x 189.70876pt>
+File: mintermDecoder.png Graphic file (type png)
+<use mintermDecoder.png>
+Package pdftex.def Info: mintermDecoder.png  used on input line 96.
+(pdftex.def)             Requested size: 426.79134pt x 140.0407pt.
+<MemoryAdressing.png, id=34, 325.96782pt x 238.64156pt>
+File: MemoryAdressing.png Graphic file (type png)
+<use MemoryAdressing.png>
+Package pdftex.def Info: MemoryAdressing.png  used on input line 106.
+(pdftex.def)             Requested size: 284.52756pt x 208.31924pt.
+ [4 <./AddingEnables.png> <./mintermDecoder.png>] [5 <./MemoryAdressing.png>] (LEcture.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 29450 strings out of 475503
- 764910 string characters out of 5761835
+ 29480 strings out of 475503
+ 765683 string characters out of 5761835
  1924248 words of memory out of 5000000
- 50440 multiletter control sequences out of 15000+600000
+ 50470 multiletter control sequences out of 15000+600000
  567807 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,458b,213s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,107p,458b,227s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on LEcture.pdf (3 pages, 141311 bytes).
+Output written on LEcture.pdf (5 pages, 400805 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

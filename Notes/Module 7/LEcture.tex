@@ -29,10 +29,10 @@
         \end{itemize}
     
     \section{Decoding}
-      It's taking an input combination, which can be acalled a code, and translating it to one or more active ouputs. 
+      It's taking an input combination, which can be called a code, and translating it to one or more active ouputs. 
       \begin{itemize}
         \item BCD Decoder Decodes the BCD input to various outputs - BCD to 7 segment
-        \item X of Y decoder (standard decoder)-Decodes minput X to activate (only) one of the Y outputs.
+        \item X of Y decoder (standard decoder)-Decodes input X to activate (only) one of the Y outputs.
       \end{itemize}
       \subsection{Standard Decoder}
         \begin{itemize}
@@ -43,7 +43,7 @@
         \end{itemize}
         Most decoders are active low outputs which use active low enable.
 
-        \subsubsection*{2 x 4 decoder}
+        \subsubsection{2 x 4 decoder}
           \begin{itemize}
             \item if enable is not active, output is inactive
             \item only one output is active at a time
@@ -54,7 +54,7 @@
           \includegraphics[width=20cm]{3x8decoder.png}
           \hrulefill
 
-          \section*{Cascading Decoders}
+          \section{Cascading Decoders}
             Cascading another decoder will add 1 more input and double the output.
             \begin{itemize}
                 \item Cascading 2x4 decoders will produce a 3x8 decoder
@@ -70,11 +70,40 @@
                 0 & 0 & 1 \\ 
                 0 & 1 & 0 \\
                 0 & 1 & 1 \\
+                \underbar{~~~}&\underbar{~~~}&\underbar{~~~} \\
                 1 & 0 & 0 \\
                 1 & 0 & 1 \\
                 1 & 1 & 0 \\
                 1 & 1 & 1 \\
-                \end{tabular}    
-            \leavevmode The top Decoder takes the first half of the inputs, while the bottom takes the bottom half of the inputs
-        
+                \end{tabular}\\ \\
+                The top Decoder takes the first half of the inputs, while the bottom takes the bottom half of the inputs
+                \\ \includegraphics*[width=15cm]{CascadingDecoder2.png}
+
+                \subsection{adding enables}
+                  Whenever decoders are cascaded together, the enables are used to add a new input.
+                  \begin{itemize}
+                    \item for \texttt{active low enables} use an \textbf{OR} gate
+                    \item for \texttt{active high enables} use an \textbf{AND} gate
+                  \end{itemize}
+                  \[X~\textnormal{AND}~1=X\] \[X~\textnormal{OR}~0=X\]
+                  
+                  \begin{figure}
+                    \includegraphics[width=10cm]{AddingEnables.png}
+                    \caption{Example of adding active low enable}
+                  \end{figure}
+                
+                \section{Using Decoders to Implement Minterms}  
+                  \includegraphics[width=15cm]{mintermDecoder.png}
+
+                \section{Where Decoders are Used}
+                  \subsection{Memory Addressing}
+                    \begin{itemize}
+                      \item Microprocessor needs to write to memory location
+                      \item Microprocessor will send out binary code
+                      \item Binary code determines which memory location should be active
+                      \item Works the same for reading a memory location
+                    \end{itemize}
+                    \includegraphics[width=10cm]{MemoryAdressing.png}
+
+                  \subsection*{Selecting Sensors \& translating Binary Code}
 \end{document}

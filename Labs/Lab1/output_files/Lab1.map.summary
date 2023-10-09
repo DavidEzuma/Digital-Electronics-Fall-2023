@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Sep 22 15:34:54 2023
+Analysis & Synthesis Status : Successful - Fri Oct  6 22:08:25 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : Lab1
 Top-level Entity Name : Task2_Combination
 Family : MAX 10
-Total logic elements : 5
-    Total combinational functions : 5
+Total logic elements : 1
+    Total combinational functions : 1
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 8
+Total pins : 4
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

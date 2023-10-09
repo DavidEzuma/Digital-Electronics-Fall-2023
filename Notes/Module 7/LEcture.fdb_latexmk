@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1696271507 "d:/Digital-Electronics-Fall-2023/Notes/Module 7/LEcture.tex" "LEcture.pdf" "LEcture" 1696271511 0
+["pdflatex"] 1696877343 "d:/Digital-Electronics-Fall-2023/Notes/Module 7/LEcture.tex" "LEcture.pdf" "LEcture" 1696877349 0
   "3x8decoder.png" 1696269010 62184 f7dc07e0dfe4302b8074f39cbca811be ""
-  "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693920792 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "AddingEnables.png" 1696874552 73708 fbd4c48f1d0c5c429dec35f15e883b3f ""
+  "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696646775 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1693941771 14064 2c5fd10aa1bbba72fd3b2cfca734be31 ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693725433 24120578 6b8939710c545f2706943eebd6b214c0 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
@@ -139,10 +140,13 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673778790 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "CascadingDecoder.png" 1696269206 16989 173d365b263d0c631fc991b586c71501 ""
-  "LEcture.aux" 1696271512 350 42b7016d14b5ed8f416fc2c86bb5510c "pdflatex"
-  "LEcture.tex" 1696271506 3236 2f8e40d514ad30116e49d87b78000e7e ""
+  "CascadingDecoder2.png" 1696873920 86449 9f66740ec37b27253823758711f462c2 ""
+  "LEcture.aux" 1696877350 1157 a58377ba0c42f8bcce03f912d7032ad4 "pdflatex"
+  "LEcture.tex" 1696877342 4822 261987cc49135380cf764332e620dc0e ""
+  "MemoryAdressing.png" 1696877236 90461 1cc88dd26472ee2c9fe6343e804253b0 ""
   "Two4Decoder.png" 1696267648 17194 d44b1ad75ea2976828315d634ab04530 ""
-  "d:/Digital-Electronics-Fall-2023/Notes/Module 7/LEcture.tex" 1696271506 3236 2f8e40d514ad30116e49d87b78000e7e ""
+  "d:/Digital-Electronics-Fall-2023/Notes/Module 7/LEcture.tex" 1696877342 4822 261987cc49135380cf764332e620dc0e ""
+  "mintermDecoder.png" 1696876898 67403 8b288f545a1df49107f3a2f6dffb8019 ""
   (generated)
   "LEcture.aux"
   "LEcture.log"
