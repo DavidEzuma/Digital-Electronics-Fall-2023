@@ -3,7 +3,7 @@ $comment
 		vcd file Lab3.msim.vcd -direction
 $end
 $date
-	Fri Sep 29 14:59:33 2023
+	Fri Oct 13 16:36:23 2023
 $end
 $version
 	ModelSim Version 2020.1
@@ -12,59 +12,73 @@ $timescale
 	1ps
 $end
 
-$scope module lab3_vhd_vec_tst $end
+$scope module segmentsschematic_vhd_vec_tst $end
 $var wire 1 ! A $end
 $var wire 1 " B $end
 $var wire 1 # C $end
 $var wire 1 $ D $end
-$var wire 1 % G0 $end
-$var wire 1 & G1 $end
-$var wire 1 ' G2 $end
-$var wire 1 ( G3 $end
+$var wire 1 % n0 $end
+$var wire 1 & n1 $end
+$var wire 1 ' n2 $end
+$var wire 1 ( n3 $end
+$var wire 1 ) n4 $end
+$var wire 1 * n5 $end
+$var wire 1 + n6 $end
 
 $scope module i1 $end
-$var wire 1 ) gnd $end
-$var wire 1 * vcc $end
-$var wire 1 + unknown $end
-$var wire 1 , devoe $end
-$var wire 1 - devclrn $end
-$var wire 1 . devpor $end
-$var wire 1 / ww_devoe $end
-$var wire 1 0 ww_devclrn $end
-$var wire 1 1 ww_devpor $end
-$var wire 1 2 ww_G0 $end
-$var wire 1 3 ww_C $end
-$var wire 1 4 ww_D $end
-$var wire 1 5 ww_G1 $end
-$var wire 1 6 ww_B $end
-$var wire 1 7 ww_G2 $end
-$var wire 1 8 ww_A $end
-$var wire 1 9 ww_G3 $end
-$var wire 1 : \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [4] $end
-$var wire 1 ; \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [3] $end
-$var wire 1 < \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [2] $end
-$var wire 1 = \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [1] $end
-$var wire 1 > \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [0] $end
-$var wire 1 ? \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [4] $end
-$var wire 1 @ \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [3] $end
-$var wire 1 A \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [2] $end
-$var wire 1 B \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [1] $end
-$var wire 1 C \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [0] $end
-$var wire 1 D \~QUARTUS_CREATED_GND~I_combout\ $end
-$var wire 1 E \~QUARTUS_CREATED_UNVM~~busy\ $end
-$var wire 1 F \~QUARTUS_CREATED_ADC1~~eoc\ $end
-$var wire 1 G \~QUARTUS_CREATED_ADC2~~eoc\ $end
-$var wire 1 H \G0~output_o\ $end
-$var wire 1 I \G1~output_o\ $end
-$var wire 1 J \G2~output_o\ $end
-$var wire 1 K \G3~output_o\ $end
-$var wire 1 L \C~input_o\ $end
-$var wire 1 M \D~input_o\ $end
-$var wire 1 N \inst10~0_combout\ $end
-$var wire 1 O \B~input_o\ $end
-$var wire 1 P \inst11~0_combout\ $end
-$var wire 1 Q \A~input_o\ $end
-$var wire 1 R \inst12~0_combout\ $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var wire 1 / devoe $end
+$var wire 1 0 devclrn $end
+$var wire 1 1 devpor $end
+$var wire 1 2 ww_devoe $end
+$var wire 1 3 ww_devclrn $end
+$var wire 1 4 ww_devpor $end
+$var wire 1 5 ww_n0 $end
+$var wire 1 6 ww_D $end
+$var wire 1 7 ww_B $end
+$var wire 1 8 ww_C $end
+$var wire 1 9 ww_A $end
+$var wire 1 : ww_n1 $end
+$var wire 1 ; ww_n2 $end
+$var wire 1 < ww_n3 $end
+$var wire 1 = ww_n4 $end
+$var wire 1 > ww_n5 $end
+$var wire 1 ? ww_n6 $end
+$var wire 1 @ \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [4] $end
+$var wire 1 A \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [3] $end
+$var wire 1 B \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [2] $end
+$var wire 1 C \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [1] $end
+$var wire 1 D \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [0] $end
+$var wire 1 E \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [4] $end
+$var wire 1 F \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [3] $end
+$var wire 1 G \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [2] $end
+$var wire 1 H \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [1] $end
+$var wire 1 I \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [0] $end
+$var wire 1 J \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 K \~QUARTUS_CREATED_UNVM~~busy\ $end
+$var wire 1 L \~QUARTUS_CREATED_ADC1~~eoc\ $end
+$var wire 1 M \~QUARTUS_CREATED_ADC2~~eoc\ $end
+$var wire 1 N \n0~output_o\ $end
+$var wire 1 O \n1~output_o\ $end
+$var wire 1 P \n2~output_o\ $end
+$var wire 1 Q \n3~output_o\ $end
+$var wire 1 R \n4~output_o\ $end
+$var wire 1 S \n5~output_o\ $end
+$var wire 1 T \n6~output_o\ $end
+$var wire 1 U \C~input_o\ $end
+$var wire 1 V \D~input_o\ $end
+$var wire 1 W \B~input_o\ $end
+$var wire 1 X \A~input_o\ $end
+$var wire 1 Y \inst51~0_combout\ $end
+$var wire 1 Z \inst48~0_combout\ $end
+$var wire 1 [ \inst49~0_combout\ $end
+$var wire 1 \ \inst21~0_combout\ $end
+$var wire 1 ] \inst22~0_combout\ $end
+$var wire 1 ^ \inst24~0_combout\ $end
+$var wire 1 _ \inst50~0_combout\ $end
+$var wire 1 ` \ALT_INV_inst21~0_combout\ $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -79,106 +93,160 @@ $dumpvars
 0'
 0(
 0)
-1*
-x+
-1,
+0*
+1+
+0,
 1-
-1.
+x.
 1/
 10
 11
-02
-03
-04
+12
+13
+14
 05
 06
 07
 08
 09
-0D
-zE
-zF
-zG
-0H
-0I
-0J
-0K
-0L
-0M
-0N
-0O
-0P
-0Q
-0R
 0:
 0;
 0<
 0=
 0>
-0?
+1?
+0J
+zK
+zL
+zM
+0N
+0O
+0P
+0Q
+0R
+0S
+1T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+1\
+0]
+0^
+1_
+0`
 0@
 0A
 0B
 0C
-$end
-#192000
-1#
-13
-1L
-1N
-1P
-1I
-1H
-15
-12
-1&
-1%
-#384000
-1$
-14
-1M
-0N
+0D
+0E
+0F
+0G
 0H
-02
-0%
-#576000
-0$
-0#
-1!
-04
-03
-18
-1Q
-0L
-0M
-1K
-0P
-1R
-19
-1J
 0I
-1(
-17
-05
-1'
-0&
-#768000
-1$
+$end
+#160000
 1"
-14
-16
-1O
-1M
+17
+1W
+1Y
+0\
+1]
+0_
+1`
+0T
+1R
 1N
-1P
-0R
-0J
-1I
-1H
-07
+1Q
+0?
+1=
 15
-12
-0'
-1&
+1<
+0+
+1)
 1%
+1(
+#320000
+0"
+1!
+1$
+07
+19
+16
+1V
+1X
+0W
+0Y
+0N
+05
+0%
+#480000
+0$
+1#
+06
+18
+1U
+0V
+0]
+0R
+0=
+0)
+#640000
+1$
+0#
+1"
+16
+08
+17
+1W
+0U
+1V
+1Y
+1\
+1^
+0`
+1S
+1N
+0Q
+1>
+15
+0<
+1*
+1%
+0(
+#800000
+0!
+09
+0X
+0Y
+1Z
+1]
+0^
+0S
+1R
+1O
+0N
+0>
+1=
+1:
+05
+0*
+1)
+1&
+0%
+#960000
+0$
+1#
+06
+18
+1U
+0V
+0]
+0R
+0=
+0)
 #1000000

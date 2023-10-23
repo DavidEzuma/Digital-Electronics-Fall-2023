@@ -10,14 +10,14 @@ z2
 cModel Technology
 Z0 dD:/Digital-Electronics-Fall-2023/Labs/Lab3/simulation/qsim
 Ehard_block
-Z1 w1696017568
+Z1 w1697232976
 Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
 Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
 Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
-!i122 0
+!i122 2
 R0
 Z8 8Lab3.vho
 Z9 FLab3.vho
@@ -27,9 +27,9 @@ Vhj[i;a0dD85B`o1JPT^cg2
 !s100 3A]XnMhF<;9mKUe5mn3aM1
 Z10 OV;C;2020.1;71
 32
-Z11 !s110 1696017571
+Z11 !s110 1697232980
 !i10b 1
-Z12 !s108 1696017570.000000
+Z12 !s108 1697232979.000000
 Z13 !s90 -work|work|Lab3.vho|
 Z14 !s107 Lab3.vho|
 !i113 1
@@ -43,7 +43,7 @@ R5
 R6
 R7
 DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
-!i122 0
+!i122 2
 l76
 L54 28
 Va5ClDYec`9chO`Ne0M1NL2
@@ -59,7 +59,7 @@ R14
 R15
 R16
 Elab3
-R1
+Z17 w1696017568
 R2
 R3
 R4
@@ -71,14 +71,14 @@ R0
 R8
 R9
 l0
-L89 1
+Z18 L89 1
 V57^oiXSnFd56efE;1baA20
 !s100 2^4]gnB4mBHAH^E:HHQGg0
 R10
 32
-R11
+Z19 !s110 1696017571
 !i10b 1
-R12
+Z20 !s108 1696017570.000000
 R13
 R14
 !i113 1
@@ -99,33 +99,33 @@ V]NFdm0`j4RFhHdi8GznBV0
 !s100 U5[64=>?COk>;Uh8Rlc4X1
 R10
 32
-R11
+R19
 !i10b 1
-R12
+R20
 R13
 R14
 !i113 1
 R15
 R16
 Elab3_vhd_vec_tst
-Z17 w1696017566
+Z21 w1696017566
 R5
 R6
 !i122 1
 R0
-Z18 8Waveform.vwf.vht
-Z19 FWaveform.vwf.vht
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
 l0
-L32 1
+Z24 L32 1
 VbLFF_O3_T_AGKZKR40:do2
 !s100 F8SUU3XN`:GzchD^:FjiA0
 R10
 32
-R11
+R19
 !i10b 1
-Z20 !s108 1696017571.000000
-Z21 !s90 -work|work|Waveform.vwf.vht|
-!s107 Waveform.vwf.vht|
+Z25 !s108 1696017571.000000
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
 !i113 1
 R15
 R16
@@ -140,11 +140,101 @@ V5jnS9G`?aLQcbzBQKh^DU3
 !s100 5g0W2zQPe94bilnbI4Hzf2
 R10
 32
+R19
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16
+Esegmentsschematic
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 2
+R0
+R8
+R9
+l0
+R18
+VUR3^QVCd<<dfXVaZP>DOa1
+!s100 9@1P>`gJP;Rn1<BB7F1K31
+R10
+32
 R11
 !i10b 1
-R20
-R21
-Z22 !s107 Waveform.vwf.vht|
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 17 segmentsschematic 0 22 UR3^QVCd<<dfXVaZP>DOa1
+!i122 2
+l173
+L119 430
+V0002<5D2bghmYO>H5aNlC2
+!s100 c[4ngb^k?HX<<CoJOXNSJ3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Esegmentsschematic_vhd_vec_tst
+Z28 w1697232972
+R5
+R6
+!i122 3
+R0
+Z29 8Waveform2.vwf.vht
+Z30 FWaveform2.vwf.vht
+l0
+R24
+VU2WS[MVGbAG>45<ITeihj2
+!s100 fED16bS:>PXY0Jglc<_gE0
+R10
+32
+Z31 !s110 1697232981
+!i10b 1
+Z32 !s108 1697232980.000000
+Z33 !s90 -work|work|Waveform2.vwf.vht|
+!s107 Waveform2.vwf.vht|
+!i113 1
+R15
+R16
+Asegmentsschematic_arch
+R5
+R6
+DEx4 work 29 segmentsschematic_vhd_vec_tst 0 22 U2WS[MVGbAG>45<ITeihj2
+!i122 3
+l63
+L34 98
+V9_fRSbD@PF3EOZLcIJk>52
+!s100 SlANnX[Jen3Y7YOFBe8zF0
+R10
+32
+R31
+!i10b 1
+R32
+R33
+Z34 !s107 Waveform2.vwf.vht|
 !i113 1
 R15
 R16

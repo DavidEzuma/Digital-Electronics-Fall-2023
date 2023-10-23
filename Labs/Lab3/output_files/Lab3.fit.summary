@@ -1,15 +1,15 @@
-Fitter Status : Successful - Fri Sep 29 14:58:30 2023
+Fitter Status : Successful - Fri Oct 13 16:35:39 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : Lab3
-Top-level Entity Name : Lab3
+Top-level Entity Name : SegmentsSchematic
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 4 / 49,760 ( < 1 % )
-    Total combinational functions : 4 / 49,760 ( < 1 % )
+Total logic elements : 8 / 49,760 ( < 1 % )
+    Total combinational functions : 8 / 49,760 ( < 1 % )
     Dedicated logic registers : 0 / 49,760 ( 0 % )
 Total registers : 0
-Total pins : 8 / 360 ( 2 % )
+Total pins : 11 / 360 ( 3 % )
 Total virtual pins : 0
 Total memory bits : 0 / 1,677,312 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )

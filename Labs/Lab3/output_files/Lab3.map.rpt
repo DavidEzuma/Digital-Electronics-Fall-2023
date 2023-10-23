@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab3
-Fri Sep 29 14:58:10 2023
+Fri Oct 13 16:35:18 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -43,16 +43,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Sep 29 14:58:10 2023          ;
+; Analysis & Synthesis Status        ; Successful - Fri Oct 13 16:35:18 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Lab3                                           ;
-; Top-level Entity Name              ; Lab3                                           ;
+; Top-level Entity Name              ; SegmentsSchematic                              ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; 3                                              ;
-;     Total combinational functions  ; 3                                              ;
+; Total logic elements               ; 7                                              ;
+;     Total combinational functions  ; 7                                              ;
 ;     Dedicated logic registers      ; 0                                              ;
 ; Total registers                    ; 0                                              ;
-; Total pins                         ; 8                                              ;
+; Total pins                         ; 11                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0                                              ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M50DAF484C7G     ;                    ;
-; Top-level entity name                                            ; Lab3               ; Lab3               ;
+; Top-level entity name                                            ; SegmentsSchematic  ; Lab3               ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -164,13 +164,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                        ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
-; Task1/Lab3.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Digital-Electronics-Fall-2023/Labs/Lab3/Task1/Lab3.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                           ; Library ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
+; Task2/SegmentsSchematic.bdf      ; yes             ; User Block Diagram/Schematic File  ; D:/Digital-Electronics-Fall-2023/Labs/Lab3/Task2/SegmentsSchematic.bdf ;         ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -178,40 +178,40 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------+
 ; Resource                                    ; Usage   ;
 +---------------------------------------------+---------+
-; Estimated Total logic elements              ; 3       ;
+; Estimated Total logic elements              ; 7       ;
 ;                                             ;         ;
-; Total combinational functions               ; 3       ;
+; Total combinational functions               ; 7       ;
 ; Logic element usage by number of LUT inputs ;         ;
-;     -- 4 input functions                    ; 0       ;
+;     -- 4 input functions                    ; 7       ;
 ;     -- 3 input functions                    ; 0       ;
-;     -- <=2 input functions                  ; 3       ;
+;     -- <=2 input functions                  ; 0       ;
 ;                                             ;         ;
 ; Logic elements by mode                      ;         ;
-;     -- normal mode                          ; 3       ;
+;     -- normal mode                          ; 7       ;
 ;     -- arithmetic mode                      ; 0       ;
 ;                                             ;         ;
 ; Total registers                             ; 0       ;
 ;     -- Dedicated logic registers            ; 0       ;
 ;     -- I/O registers                        ; 0       ;
 ;                                             ;         ;
-; I/O pins                                    ; 8       ;
+; I/O pins                                    ; 11      ;
 ;                                             ;         ;
 ; Embedded Multiplier 9-bit elements          ; 0       ;
 ;                                             ;         ;
-; Maximum fan-out node                        ; C~input ;
-; Maximum fan-out                             ; 2       ;
-; Total fan-out                               ; 18      ;
-; Average fan-out                             ; 0.95    ;
+; Maximum fan-out node                        ; D~input ;
+; Maximum fan-out                             ; 7       ;
+; Total fan-out                               ; 46      ;
+; Average fan-out                             ; 1.59    ;
 +---------------------------------------------+---------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |Lab3                      ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 8    ; 0            ; 0          ; |Lab3               ; Lab3        ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                      ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name       ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------------+--------------+
+; |SegmentsSchematic         ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 11   ; 0            ; 0          ; |SegmentsSchematic  ; SegmentsSchematic ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -235,13 +235,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 8                           ;
-; cycloneiii_lcell_comb ; 3                           ;
-;     normal            ; 3                           ;
-;         2 data inputs ; 3                           ;
+; boundary_port         ; 11                          ;
+; cycloneiii_lcell_comb ; 8                           ;
+;     normal            ; 8                           ;
+;         1 data inputs ; 1                           ;
+;         4 data inputs ; 7                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.50                        ;
 +-----------------------+-----------------------------+
 
 
@@ -260,24 +261,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Fri Sep 29 14:57:44 2023
+    Info: Processing started: Fri Oct 13 16:34:53 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file task2/lab3b (1).bdf
+    Info (12023): Found entity 1: Lab3B (1)
 Info (12021): Found 1 design units, including 1 entities, in source file task1/lab3.bdf
     Info (12023): Found entity 1: Lab3
-Info (12127): Elaborating entity "Lab3" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file task2/segmentsschematic.bdf
+    Info (12023): Found entity 1: SegmentsSchematic
+Info (12127): Elaborating entity "SegmentsSchematic" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 11 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 18 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 3 logic cells
+    Info (21059): Implemented 7 output pins
+    Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4786 megabytes
-    Info: Processing ended: Fri Sep 29 14:58:10 2023
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:48
+    Info: Processing ended: Fri Oct 13 16:35:18 2023
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:47
 
 
