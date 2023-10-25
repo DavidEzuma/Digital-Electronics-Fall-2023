@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1698090112 "d:/Digital-Electronics-Fall-2023/Notes/Module 9/lecture.tex" "lecture.pdf" "lecture" 1698090117 0
+["pdflatex"] 1698253446 "d:/Digital-Electronics-Fall-2023/Notes/Module 9/lecture.tex" "lecture.pdf" "lecture" 1698253451 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696646775 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1693941771 14064 2c5fd10aa1bbba72fd3b2cfca734be31 ""
   "C:/Users/david/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693725433 24120578 6b8939710c545f2706943eebd6b214c0 ""
@@ -136,14 +136,16 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673778790 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673778790 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
+  "CasFull.png" 1698253376 57583 55c678c07159d851a39db0dc1ae31686 ""
+  "Cashalf.png" 1698252930 98734 26d78a0e7675e5bcfb7518db675f6461 ""
   "FullAdder1.png" 1698089006 74734 5bd354a59e70d9d62fc01ea3923bdda2 ""
   "FullAdder2.png" 1698089740 44100 8d2d50132fd0ab80970427ba3b15def9 ""
   "Halfadder1.png" 1698087660 55977 aa474f5507224161affefb6fb0ee8ff9 ""
   "Negationbubble.png" 1698082922 9144 17e7a1a94b108852d2538a312293bd9c ""
   "adderEX1.png" 1698087502 74594 8c88096b032d4085d24c72b2f156b41a ""
-  "d:/Digital-Electronics-Fall-2023/Notes/Module 9/lecture.tex" 1698090108 2015 5a2e99e405e3e16ec9e0b6e8f26535c8 ""
-  "lecture.aux" 1698090118 562 8a11a4b53bee808ce6462038fa8aa82a "pdflatex"
-  "lecture.tex" 1698090108 2015 5a2e99e405e3e16ec9e0b6e8f26535c8 ""
+  "d:/Digital-Electronics-Fall-2023/Notes/Module 9/lecture.tex" 1698253444 2597 de21e30ea1092df4b64c6651f5e5601d ""
+  "lecture.aux" 1698253452 676 4aa704d42ff8f89f10dfa6b483650147 "pdflatex"
+  "lecture.tex" 1698253444 2597 de21e30ea1092df4b64c6651f5e5601d ""
   (generated)
   "lecture.aux"
   "lecture.log"
