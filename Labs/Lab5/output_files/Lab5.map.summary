@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Nov  3 15:06:42 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Lab5
+Top-level Entity Name : combination
+Family : MAX 10
+Total logic elements : 17
+    Total combinational functions : 17
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 20
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

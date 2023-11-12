@@ -1,0 +1,188 @@
+|combination
+OA <= 7447:inst10.OA
+M => 74283:inst5.CIN
+M => MUX:inst.M
+A1 => 74283:inst5.A1
+A2 => 74283:inst5.A2
+B1 => MUX:inst.B1
+B2 => MUX:inst.B2
+B3 => MUX:inst.B3
+A3 => 74283:inst5.A3
+OB <= 7447:inst10.OB
+OC <= 7447:inst10.OC
+OD <= 7447:inst10.OD
+OE <= 7447:inst10.OE
+OG <= 7447:inst10.OG
+ALBO <= 7485:inst11.ALBO
+C3 => 7485:inst11.B2
+C1 => 7485:inst11.B0
+C2 => 7485:inst11.B1
+AEBO <= 7485:inst11.AEBO
+AGBO <= 7485:inst11.AGBO
+OT <= 7447:inst10.OF
+
+
+|combination|7447:inst10
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|combination|74283:inst5
+a[1] => f74283:sub.a[1]
+a[2] => f74283:sub.a[2]
+a[3] => f74283:sub.a[3]
+a[4] => f74283:sub.a[4]
+b[1] => f74283:sub.b[1]
+b[2] => f74283:sub.b[2]
+b[3] => f74283:sub.b[3]
+b[4] => f74283:sub.b[4]
+cin => f74283:sub.cin
+cout <= f74283:sub.cout
+sum[1] <= f74283:sub.sum[1]
+sum[2] <= f74283:sub.sum[2]
+sum[3] <= f74283:sub.sum[3]
+sum[4] <= f74283:sub.sum[4]
+
+
+|combination|74283:inst5|f74283:sub
+SUM1 <= 76.DB_MAX_OUTPUT_PORT_TYPE
+CIN => 108.DATAIN
+A1 => 77.IN1
+A1 => 92.IN1
+A1 => 93.IN1
+B1 => 76.IN1
+B1 => 93.IN0
+B1 => 94.IN1
+COUT <= 91.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 95.IN1
+A2 => 97.IN1
+A2 => 79.IN1
+B2 => 97.IN0
+B2 => 96.IN1
+B2 => 78.IN1
+A3 => 98.IN1
+A3 => 100.IN1
+A3 => 81.IN1
+B3 => 100.IN0
+B3 => 99.IN1
+B3 => 80.IN1
+A4 => 101.IN1
+A4 => 103.IN1
+A4 => 83.IN1
+B4 => 103.IN0
+B4 => 102.IN1
+B4 => 82.IN1
+SUM4 <= 82.DB_MAX_OUTPUT_PORT_TYPE
+SUM3 <= 80.DB_MAX_OUTPUT_PORT_TYPE
+SUM2 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|combination|MUX:inst
+BMUX1 <= 74157M:inst.Y
+M => 74157M:inst.SEL
+M => 74157M:inst1.SEL
+M => 74157M:inst2.SEL
+B1 => inst4.IN0
+B1 => 74157M:inst.A
+BMUX2 <= 74157M:inst1.Y
+B2 => inst5.IN0
+B2 => 74157M:inst1.A
+BMUX3 <= 74157M:inst2.Y
+B3 => inst6.IN0
+B3 => 74157M:inst2.A
+
+
+|combination|MUX:inst|74157M:inst
+Y <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B => 21.IN0
+
+
+|combination|MUX:inst|74157M:inst1
+Y <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B => 21.IN0
+
+
+|combination|MUX:inst|74157M:inst2
+Y <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B => 21.IN0
+
+
+|combination|7485:inst11
+a[0] => f7485:sub.a[0]
+a[1] => f7485:sub.a[1]
+a[2] => f7485:sub.a[2]
+a[3] => f7485:sub.a[3]
+b[0] => f7485:sub.b[0]
+b[1] => f7485:sub.b[1]
+b[2] => f7485:sub.b[2]
+b[3] => f7485:sub.b[3]
+agbi => f7485:sub.agbi
+albi => f7485:sub.albi
+aebi => f7485:sub.aebi
+agbo <= f7485:sub.agbo
+albo <= f7485:sub.albo
+aebo <= f7485:sub.aebo
+
+
+|combination|7485:inst11|f7485:sub
+ALBO <= 87.DB_MAX_OUTPUT_PORT_TYPE
+AGBI => 96.IN0
+A0 => 90.IN0
+A0 => 104.IN0
+A0 => 103.IN1
+B0 => 90.IN1
+B0 => 97.IN0
+A1 => 89.IN0
+A1 => 112.IN0
+A1 => 104.IN1
+B1 => 89.IN1
+B1 => 95.IN0
+A2 => 91.IN0
+A2 => 129.IN0
+A2 => 105.IN1
+B2 => 91.IN1
+B2 => 100.IN0
+A3 => 92.IN0
+A3 => 114.IN0
+A3 => 129.IN1
+B3 => 92.IN1
+B3 => 99.IN0
+AEBI => 93.IN0
+AEBI => 108.IN0
+AEBO <= 108.DB_MAX_OUTPUT_PORT_TYPE
+AGBO <= 86.DB_MAX_OUTPUT_PORT_TYPE
+ALBI => 134.IN0
+
+
