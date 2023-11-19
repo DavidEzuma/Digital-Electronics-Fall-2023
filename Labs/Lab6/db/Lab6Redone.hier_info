@@ -1,0 +1,41 @@
+|Task2
+pin_name1 <= 7447:inst4.OA
+CLEAR => inst.ACLR
+CLEAR => inst1.ACLR
+CLOCK => inst.CLK
+CLOCK => inst1.CLK
+X => inst10.IN0
+X => inst18.IN1
+X => inst16.IN2
+pin_name2 <= 7447:inst4.OB
+pin_name3 <= 7447:inst4.OC
+pin_name4 <= 7447:inst4.OD
+pin_name5 <= 7447:inst4.OE
+pin_name6 <= 7447:inst4.OF
+pin_name7 <= 7447:inst4.OG
+F <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Task2|7447:inst4
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
