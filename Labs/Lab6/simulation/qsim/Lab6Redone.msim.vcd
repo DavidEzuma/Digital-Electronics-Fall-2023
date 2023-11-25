@@ -3,7 +3,7 @@ $comment
 		vcd file Lab6Redone.msim.vcd -direction
 $end
 $date
-	Sat Nov 18 05:25:46 2023
+	Sat Nov 18 23:00:57 2023
 $end
 $version
 	ModelSim Version 2020.1

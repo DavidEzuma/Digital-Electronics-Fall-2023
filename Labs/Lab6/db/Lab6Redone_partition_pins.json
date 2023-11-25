@@ -4,47 +4,23 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "pin_name1",
+					"name" : "Q",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name3",
+					"name" : "Preset",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name4",
+					"name" : "Clear",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name5",
+					"name" : "D",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name6",
-					"strict" : false
-				},
-				{
-					"name" : "pin_name7",
-					"strict" : false
-				},
-				{
-					"name" : "F",
-					"strict" : false
-				},
-				{
-					"name" : "G",
-					"strict" : false
-				},
-				{
-					"name" : "X",
-					"strict" : false
-				},
-				{
-					"name" : "CLOCK",
-					"strict" : false
-				},
-				{
-					"name" : "CLEAR",
+					"name" : "CLK",
 					"strict" : false
 				}
 			]

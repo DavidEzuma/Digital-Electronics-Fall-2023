@@ -1,4 +1,4 @@
--- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Copyright (C) 2022  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
 -- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
@@ -19,9 +19,9 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/18/2023 05:25:41"
+-- Generated on "11/18/2023 23:00:46"
                                                              
--- Vhdl Test Bench(with test vectors) for design  :          Task2
+-- Vhdl Test Bench(with test vectors) for design  :          Task1
 -- 
 -- Simulation tool : 3rd Party
 -- 
@@ -29,96 +29,33 @@
 LIBRARY ieee;                                               
 USE ieee.std_logic_1164.all;                                
 
-ENTITY Task2_vhd_vec_tst IS
-END Task2_vhd_vec_tst;
-ARCHITECTURE Task2_arch OF Task2_vhd_vec_tst IS
+ENTITY Task1_vhd_vec_tst IS
+END Task1_vhd_vec_tst;
+ARCHITECTURE Task1_arch OF Task1_vhd_vec_tst IS
 -- constants                                                 
 -- signals                                                   
-SIGNAL CLEAR : STD_LOGIC;
-SIGNAL CLOCK : STD_LOGIC;
-SIGNAL F : STD_LOGIC;
-SIGNAL G : STD_LOGIC;
-SIGNAL pin_name1 : STD_LOGIC;
-SIGNAL pin_name2 : STD_LOGIC;
-SIGNAL pin_name3 : STD_LOGIC;
-SIGNAL pin_name4 : STD_LOGIC;
-SIGNAL pin_name5 : STD_LOGIC;
-SIGNAL pin_name6 : STD_LOGIC;
-SIGNAL pin_name7 : STD_LOGIC;
-SIGNAL X : STD_LOGIC;
-COMPONENT Task2
+SIGNAL Clear : STD_LOGIC;
+SIGNAL CLK : STD_LOGIC;
+SIGNAL D : STD_LOGIC;
+SIGNAL Preset : STD_LOGIC;
+SIGNAL Q : STD_LOGIC;
+COMPONENT Task1
 	PORT (
-	CLEAR : IN STD_LOGIC;
-	CLOCK : IN STD_LOGIC;
-	F : OUT STD_LOGIC;
-	G : OUT STD_LOGIC;
-	pin_name1 : OUT STD_LOGIC;
-	pin_name2 : OUT STD_LOGIC;
-	pin_name3 : OUT STD_LOGIC;
-	pin_name4 : OUT STD_LOGIC;
-	pin_name5 : OUT STD_LOGIC;
-	pin_name6 : OUT STD_LOGIC;
-	pin_name7 : OUT STD_LOGIC;
-	X : IN STD_LOGIC
+	Clear : IN STD_LOGIC;
+	CLK : IN STD_LOGIC;
+	D : IN STD_LOGIC;
+	Preset : IN STD_LOGIC;
+	Q : OUT STD_LOGIC
 	);
 END COMPONENT;
 BEGIN
-	i1 : Task2
+	i1 : Task1
 	PORT MAP (
 -- list connections between master ports and signals
-	CLEAR => CLEAR,
-	CLOCK => CLOCK,
-	F => F,
-	G => G,
-	pin_name1 => pin_name1,
-	pin_name2 => pin_name2,
-	pin_name3 => pin_name3,
-	pin_name4 => pin_name4,
-	pin_name5 => pin_name5,
-	pin_name6 => pin_name6,
-	pin_name7 => pin_name7,
-	X => X
+	Clear => Clear,
+	CLK => CLK,
+	D => D,
+	Preset => Preset,
+	Q => Q
 	);
-
--- CLOCK
-t_prcs_CLOCK: PROCESS
-BEGIN
-LOOP
-	CLOCK <= '0';
-	WAIT FOR 10000 ps;
-	CLOCK <= '1';
-	WAIT FOR 10000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
-END PROCESS t_prcs_CLOCK;
-
--- CLEAR
-t_prcs_CLEAR: PROCESS
-BEGIN
-	CLEAR <= '0';
-	WAIT FOR 15000 ps;
-	CLEAR <= '1';
-WAIT;
-END PROCESS t_prcs_CLEAR;
-
--- X
-t_prcs_X: PROCESS
-BEGIN
-	X <= '1';
-	WAIT FOR 80000 ps;
-	X <= '0';
-	WAIT FOR 80000 ps;
-	X <= '1';
-	WAIT FOR 40000 ps;
-	X <= '0';
-	WAIT FOR 50000 ps;
-	X <= '1';
-	WAIT FOR 80000 ps;
-	X <= '0';
-	WAIT FOR 80000 ps;
-	X <= '1';
-	WAIT FOR 90000 ps;
-	X <= '0';
-WAIT;
-END PROCESS t_prcs_X;
-END Task2_arch;
+END Task1_arch;

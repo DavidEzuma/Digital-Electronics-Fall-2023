@@ -1,4 +1,4 @@
--- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Copyright (C) 2022  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
 -- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
@@ -15,9 +15,9 @@
 
 -- VENDOR "Altera"
 -- PROGRAM "Quartus Prime"
--- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+-- VERSION "Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition"
 
--- DATE "11/18/2023 05:19:32"
+-- DATE "11/18/2023 22:18:46"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -88,39 +88,25 @@ USE ALTERA.ALTERA_PRIMITIVES_COMPONENTS.ALL;
 USE FIFTYFIVENM.FIFTYFIVENM_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY 	Task2 IS
+ENTITY 	Task1 IS
     PORT (
-	pin_name1 : OUT std_logic;
-	CLEAR : IN std_logic;
-	CLOCK : IN std_logic;
-	X : IN std_logic;
-	pin_name2 : OUT std_logic;
-	pin_name3 : OUT std_logic;
-	pin_name4 : OUT std_logic;
-	pin_name5 : OUT std_logic;
-	pin_name6 : OUT std_logic;
-	pin_name7 : OUT std_logic;
-	F : OUT std_logic;
-	G : OUT std_logic
+	Q : OUT std_logic;
+	Clear : IN std_logic;
+	CLK : IN std_logic;
+	D : IN std_logic;
+	Preset : IN std_logic
 	);
-END Task2;
+END Task1;
 
 -- Design Ports Information
--- pin_name1	=>  Location: PIN_C14,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name2	=>  Location: PIN_E15,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name3	=>  Location: PIN_C15,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name4	=>  Location: PIN_C16,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name5	=>  Location: PIN_E16,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name6	=>  Location: PIN_D17,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- pin_name7	=>  Location: PIN_C17,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- F	=>  Location: PIN_A9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- G	=>  Location: PIN_A10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- X	=>  Location: PIN_A14,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- CLOCK	=>  Location: PIN_F15,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- CLEAR	=>  Location: PIN_B14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Q	=>  Location: PIN_P3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Preset	=>  Location: PIN_M2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Clear	=>  Location: PIN_B14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- D	=>  Location: PIN_M1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- CLK	=>  Location: PIN_R3,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
-ARCHITECTURE structure OF Task2 IS
+ARCHITECTURE structure OF Task1 IS
 SIGNAL gnd : std_logic := '0';
 SIGNAL vcc : std_logic := '1';
 SIGNAL unknown : std_logic := 'X';
@@ -130,45 +116,28 @@ SIGNAL devpor : std_logic := '1';
 SIGNAL ww_devoe : std_logic;
 SIGNAL ww_devclrn : std_logic;
 SIGNAL ww_devpor : std_logic;
-SIGNAL ww_pin_name1 : std_logic;
-SIGNAL ww_CLEAR : std_logic;
-SIGNAL ww_CLOCK : std_logic;
-SIGNAL ww_X : std_logic;
-SIGNAL ww_pin_name2 : std_logic;
-SIGNAL ww_pin_name3 : std_logic;
-SIGNAL ww_pin_name4 : std_logic;
-SIGNAL ww_pin_name5 : std_logic;
-SIGNAL ww_pin_name6 : std_logic;
-SIGNAL ww_pin_name7 : std_logic;
-SIGNAL ww_F : std_logic;
-SIGNAL ww_G : std_logic;
+SIGNAL ww_Q : std_logic;
+SIGNAL ww_Clear : std_logic;
+SIGNAL ww_CLK : std_logic;
+SIGNAL ww_D : std_logic;
+SIGNAL ww_Preset : std_logic;
 SIGNAL \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ : std_logic_vector(4 DOWNTO 0);
 SIGNAL \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ : std_logic_vector(4 DOWNTO 0);
 SIGNAL \~QUARTUS_CREATED_GND~I_combout\ : std_logic;
 SIGNAL \~QUARTUS_CREATED_UNVM~~busy\ : std_logic;
 SIGNAL \~QUARTUS_CREATED_ADC1~~eoc\ : std_logic;
 SIGNAL \~QUARTUS_CREATED_ADC2~~eoc\ : std_logic;
-SIGNAL \pin_name1~output_o\ : std_logic;
-SIGNAL \pin_name2~output_o\ : std_logic;
-SIGNAL \pin_name3~output_o\ : std_logic;
-SIGNAL \pin_name4~output_o\ : std_logic;
-SIGNAL \pin_name5~output_o\ : std_logic;
-SIGNAL \pin_name6~output_o\ : std_logic;
-SIGNAL \pin_name7~output_o\ : std_logic;
-SIGNAL \F~output_o\ : std_logic;
-SIGNAL \G~output_o\ : std_logic;
-SIGNAL \CLOCK~input_o\ : std_logic;
-SIGNAL \X~input_o\ : std_logic;
-SIGNAL \inst1~0_combout\ : std_logic;
-SIGNAL \CLEAR~input_o\ : std_logic;
-SIGNAL \inst1~q\ : std_logic;
+SIGNAL \Q~output_o\ : std_logic;
+SIGNAL \Preset~input_o\ : std_logic;
+SIGNAL \CLK~input_o\ : std_logic;
+SIGNAL \Clear~input_o\ : std_logic;
+SIGNAL \inst~1_combout\ : std_logic;
+SIGNAL \D~input_o\ : std_logic;
+SIGNAL \inst~3_combout\ : std_logic;
 SIGNAL \inst~0_combout\ : std_logic;
-SIGNAL \inst~q\ : std_logic;
-SIGNAL \inst6~combout\ : std_logic;
-SIGNAL \inst4|6~combout\ : std_logic;
-SIGNAL \inst4|86~0_combout\ : std_logic;
-SIGNAL \ALT_INV_inst1~q\ : std_logic;
-SIGNAL \ALT_INV_inst~q\ : std_logic;
+SIGNAL \inst~_emulated_q\ : std_logic;
+SIGNAL \inst~2_combout\ : std_logic;
+SIGNAL \ALT_INV_inst~0_combout\ : std_logic;
 
 COMPONENT hard_block
     PORT (
@@ -179,18 +148,11 @@ END COMPONENT;
 
 BEGIN
 
-pin_name1 <= ww_pin_name1;
-ww_CLEAR <= CLEAR;
-ww_CLOCK <= CLOCK;
-ww_X <= X;
-pin_name2 <= ww_pin_name2;
-pin_name3 <= ww_pin_name3;
-pin_name4 <= ww_pin_name4;
-pin_name5 <= ww_pin_name5;
-pin_name6 <= ww_pin_name6;
-pin_name7 <= ww_pin_name7;
-F <= ww_F;
-G <= ww_G;
+Q <= ww_Q;
+ww_Clear <= Clear;
+ww_CLK <= CLK;
+ww_D <= D;
+ww_Preset <= Preset;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
@@ -198,15 +160,14 @@ ww_devpor <= devpor;
 \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ <= (\~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\);
 
 \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ <= (\~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\ & \~QUARTUS_CREATED_GND~I_combout\);
-\ALT_INV_inst1~q\ <= NOT \inst1~q\;
-\ALT_INV_inst~q\ <= NOT \inst~q\;
+\ALT_INV_inst~0_combout\ <= NOT \inst~0_combout\;
 auto_generated_inst : hard_block
 PORT MAP (
 	devoe => ww_devoe,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor);
 
--- Location: LCCOMB_X44_Y41_N24
+-- Location: LCCOMB_X44_Y52_N16
 \~QUARTUS_CREATED_GND~I\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \~QUARTUS_CREATED_GND~I_combout\ = GND
@@ -219,116 +180,20 @@ GENERIC MAP (
 PORT MAP (
 	combout => \~QUARTUS_CREATED_GND~I_combout\);
 
--- Location: IOOBUF_X58_Y54_N16
-\pin_name1~output\ : fiftyfivenm_io_obuf
+-- Location: IOOBUF_X0_Y16_N16
+\Q~output\ : fiftyfivenm_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \inst6~combout\,
+	i => \inst~2_combout\,
 	devoe => ww_devoe,
-	o => \pin_name1~output_o\);
+	o => \Q~output_o\);
 
--- Location: IOOBUF_X74_Y54_N9
-\pin_name2~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => GND,
-	devoe => ww_devoe,
-	o => \pin_name2~output_o\);
-
--- Location: IOOBUF_X60_Y54_N2
-\pin_name3~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \inst4|6~combout\,
-	devoe => ww_devoe,
-	o => \pin_name3~output_o\);
-
--- Location: IOOBUF_X62_Y54_N30
-\pin_name4~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \inst6~combout\,
-	devoe => ww_devoe,
-	o => \pin_name4~output_o\);
-
--- Location: IOOBUF_X74_Y54_N2
-\pin_name5~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \ALT_INV_inst1~q\,
-	devoe => ww_devoe,
-	o => \pin_name5~output_o\);
-
--- Location: IOOBUF_X74_Y54_N16
-\pin_name6~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \inst4|86~0_combout\,
-	devoe => ww_devoe,
-	o => \pin_name6~output_o\);
-
--- Location: IOOBUF_X74_Y54_N23
-\pin_name7~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \inst~q\,
-	devoe => ww_devoe,
-	o => \pin_name7~output_o\);
-
--- Location: IOOBUF_X46_Y54_N23
-\F~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \ALT_INV_inst~q\,
-	devoe => ww_devoe,
-	o => \F~output_o\);
-
--- Location: IOOBUF_X51_Y54_N16
-\G~output\ : fiftyfivenm_io_obuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	open_drain_output => "false")
--- pragma translate_on
-PORT MAP (
-	i => \ALT_INV_inst1~q\,
-	devoe => ww_devoe,
-	o => \G~output_o\);
-
--- Location: IOIBUF_X69_Y54_N1
-\CLOCK~input\ : fiftyfivenm_io_ibuf
+-- Location: IOIBUF_X0_Y16_N1
+\Preset~input\ : fiftyfivenm_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -336,11 +201,11 @@ GENERIC MAP (
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_CLOCK,
-	o => \CLOCK~input_o\);
+	i => ww_Preset,
+	o => \Preset~input_o\);
 
--- Location: IOIBUF_X58_Y54_N29
-\X~input\ : fiftyfivenm_io_ibuf
+-- Location: IOIBUF_X0_Y16_N22
+\CLK~input\ : fiftyfivenm_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -348,26 +213,11 @@ GENERIC MAP (
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_X,
-	o => \X~input_o\);
-
--- Location: LCCOMB_X69_Y53_N2
-\inst1~0\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst1~0_combout\ = \inst1~q\ $ (\X~input_o\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000111111110000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datac => \inst1~q\,
-	datad => \X~input_o\,
-	combout => \inst1~0_combout\);
+	i => ww_CLK,
+	o => \CLK~input_o\);
 
 -- Location: IOIBUF_X56_Y54_N1
-\CLEAR~input\ : fiftyfivenm_io_ibuf
+\Clear~input\ : fiftyfivenm_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -375,99 +225,98 @@ GENERIC MAP (
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_CLEAR,
-	o => \CLEAR~input_o\);
+	i => ww_Clear,
+	o => \Clear~input_o\);
 
--- Location: FF_X69_Y53_N3
-inst1 : dffeas
+-- Location: LCCOMB_X1_Y16_N6
+\inst~1\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst~1_combout\ = (\Clear~input_o\ & ((\inst~1_combout\) # (!\Preset~input_o\)))
+
 -- pragma translate_off
 GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
+	lut_mask => "1100110001000100",
+	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	clk => \CLOCK~input_o\,
-	d => \inst1~0_combout\,
-	clrn => \CLEAR~input_o\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \inst1~q\);
+	dataa => \Preset~input_o\,
+	datab => \Clear~input_o\,
+	datad => \inst~1_combout\,
+	combout => \inst~1_combout\);
 
--- Location: LCCOMB_X69_Y53_N12
+-- Location: IOIBUF_X0_Y16_N8
+\D~input\ : fiftyfivenm_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	listen_to_nsleep_signal => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_D,
+	o => \D~input_o\);
+
+-- Location: LCCOMB_X1_Y16_N24
+\inst~3\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst~3_combout\ = \inst~1_combout\ $ (\D~input_o\)
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010110101010",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \inst~1_combout\,
+	datad => \D~input_o\,
+	combout => \inst~3_combout\);
+
+-- Location: LCCOMB_X1_Y16_N28
 \inst~0\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst~0_combout\ = \inst~q\ $ (((\X~input_o\ & \inst1~q\)))
+-- \inst~0_combout\ = (!\Clear~input_o\) # (!\Preset~input_o\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0101101011110000",
+	lut_mask => "0101010111111111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \X~input_o\,
-	datac => \inst~q\,
-	datad => \inst1~q\,
+	dataa => \Preset~input_o\,
+	datad => \Clear~input_o\,
 	combout => \inst~0_combout\);
 
--- Location: FF_X69_Y53_N13
-inst : dffeas
+-- Location: FF_X1_Y16_N25
+\inst~_emulated\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
 	power_up => "low")
 -- pragma translate_on
 PORT MAP (
-	clk => \CLOCK~input_o\,
-	d => \inst~0_combout\,
-	clrn => \CLEAR~input_o\,
+	clk => \CLK~input_o\,
+	d => \inst~3_combout\,
+	clrn => \ALT_INV_inst~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \inst~q\);
+	q => \inst~_emulated_q\);
 
--- Location: LCCOMB_X69_Y53_N20
-inst6 : fiftyfivenm_lcell_comb
+-- Location: LCCOMB_X1_Y16_N18
+\inst~2\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6~combout\ = (!\inst1~q\ & \inst~q\)
+-- \inst~2_combout\ = (\Clear~input_o\ & ((\inst~_emulated_q\ $ (\inst~1_combout\)) # (!\Preset~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111100000000",
+	lut_mask => "0111110100000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst1~q\,
-	datad => \inst~q\,
-	combout => \inst6~combout\);
-
--- Location: LCCOMB_X69_Y53_N26
-\inst4|6\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst4|6~combout\ = (\inst1~q\ & !\inst~q\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000000011110000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datac => \inst1~q\,
-	datad => \inst~q\,
-	combout => \inst4|6~combout\);
-
--- Location: LCCOMB_X69_Y53_N0
-\inst4|86~0\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst4|86~0_combout\ = (!\inst~q\) # (!\inst1~q\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000111111111111",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datac => \inst1~q\,
-	datad => \inst~q\,
-	combout => \inst4|86~0_combout\);
+	dataa => \Preset~input_o\,
+	datab => \inst~_emulated_q\,
+	datac => \inst~1_combout\,
+	datad => \Clear~input_o\,
+	combout => \inst~2_combout\);
 
 -- Location: UNVM_X0_Y40_N40
 \~QUARTUS_CREATED_UNVM~\ : fiftyfivenm_unvm
@@ -540,23 +389,7 @@ PORT MAP (
 	chsel => \~QUARTUS_CREATED_ADC2~_CHSEL_bus\,
 	eoc => \~QUARTUS_CREATED_ADC2~~eoc\);
 
-ww_pin_name1 <= \pin_name1~output_o\;
-
-ww_pin_name2 <= \pin_name2~output_o\;
-
-ww_pin_name3 <= \pin_name3~output_o\;
-
-ww_pin_name4 <= \pin_name4~output_o\;
-
-ww_pin_name5 <= \pin_name5~output_o\;
-
-ww_pin_name6 <= \pin_name6~output_o\;
-
-ww_pin_name7 <= \pin_name7~output_o\;
-
-ww_F <= \F~output_o\;
-
-ww_G <= \G~output_o\;
+ww_Q <= \Q~output_o\;
 END structure;
 
 
