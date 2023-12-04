@@ -1,0 +1,41 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+
+\newcommand{\ra}{$\rightarrow$}
+\newenvironment{6mini}{
+  \begin{minipage}{6cm}
+}{
+  \end{minipage}
+}
+
+\title{\texttt{One Hot Encoding}\\\hrulefill}
+\author{Module 18 :)}
+\date{\small{12/4/2023}}
+
+\begin{document}
+    \maketitle
+
+    \subsubsection{Sequential Design So Far}
+        Designing circuits sof ar has been achieved through Binary Encoding
+        \begin{itemize}
+            \item Each state is a given binar number
+            \item Use state table and k-maps to get simplified logic circuits for next states and output
+        \end{itemize}
+        This is limited by the number of total states and inputs \ra~K-map becomes too large to handle by hand. 
+    \section{One Hot Encoding}
+    Instead of assigning each state a binary number, \underline{each state is represented as a single binary value}.
+    \begin{itemize}
+        \item Number of bits in the value is the number of states
+        \item only one bit can be 1 for each value
+        \item 1 flip flop for each state
+        \item One hot encoding sues more flip flops than binary Encoding
+        \item No state table necessary
+    \end{itemize}
+    *For 3 states, the encoding is State 0 -$>$001, State 1 -$>$ 010, State 2 -$>$100
+\end{document}
